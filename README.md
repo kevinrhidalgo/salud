@@ -14,7 +14,7 @@ Salud is a food application with the purpose of showing users that one can enjoy
   * [Contact](#contact)
   # Installation
   To run the installation, use the following code:
-  NPX create-react-app, npm i, npm i express, npm i mongoose
+  npm i, followed by npm start or node server.js
   # usage
   Git clone, Git pull, Git add, Git commit, Git push
   # License
