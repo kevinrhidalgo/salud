@@ -1,0 +1,19 @@
+
+
+footer p {
+    font-family: poppins;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    float: left;
+    background-color: #222222;
+    width: 1037px;
+    height: 60px;
+    padding:10px; 
+    position:absolute;
+  }
+
+  img{
+    height: 40px;
+    width:40px;
+}

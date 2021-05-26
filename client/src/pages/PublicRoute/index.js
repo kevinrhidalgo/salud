@@ -11,8 +11,8 @@ function PublicRoute() {
                 <div className="col-sm">
                 </div>
                 <div className="col-sm">
-                    <h3>Example Public Route</h3>
-                    <h6>Anyone can see this content</h6>
+                    <h3>Home Page</h3>
+                    <h6>PUBLIC ROUTE: Anyone can see this content</h6>
                 </div>
                 <div className="col-sm">
 

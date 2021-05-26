@@ -5,9 +5,11 @@ import "./style.css";
 import AuthButton from "../AuthButton";
 import { UserContext } from "../../utils/UserContext";
 //I want to add some basic inline styling here, even though we are bringing in styles
-const buttonStyle = {
-  marginRight: 10
+const buttonStyle1 = {
+  marginRight: 10, 
 };
+
+
 
 function Nav() {
 
@@ -38,24 +40,27 @@ function Nav() {
 
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+    <nav className="navbar navbar-expand-lg navbar-primary bg-light mb-2">
       <Link className="navbar-brand" to="/">
         salud.
         </Link>
       <div className={`${open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
-        {user.username ? <span className="userText text-white ml-3 pt-1" to="#">Hi {user.username} !</span> : ""}
-        <ul className="navbar-nav ml-auto">
+        {user.username ? <span className="userText text-dark ml-3 pt-1" to="#">Hi {user.username}!</span> : ""}
+        <ul className="navbar-nav d-flex">
           <li className="nav-item ">
-            <Link style={buttonStyle} className=" btn btn-secondary" to="/public">Home</Link>
-            <Link style={buttonStyle} className=" btn btn-secondary" to="/public">Voices</Link>
-            <Link style={buttonStyle} className="btn btn-danger" to="/protected">Recipes</Link>
-            <Link style={buttonStyle} className="btn btn-danger" to="/protected">Meal Planner</Link>
-            {user.username ? "" :
-              <Link style={buttonStyle} className="btn btn-warning" to="/register">Sign Up!</Link>
+            <Link style={buttonStyle1} className=" btn btn-info" to="/public">Home</Link>
+            <Link style={buttonStyle1} className=" btn btn-info" to="/public">Voices</Link>
+            <Link style={buttonStyle1} className="btn btn-info" to="/protected">Recipes</Link>
+            <Link style={buttonStyle1} className="btn btn-info" to="/protected">Meal Planner</Link>
+          </li>
+        </ul>
+        <ul className="navbar-nav ml-auto ">
+          <li>
+          {user.username ? "" :
+              <Link style={buttonStyle1} className="btn btn-dark" to="/register">Sign Up!</Link>
             }
             <AuthButton />
           </li>
-
         </ul>
       </div>
     </nav>

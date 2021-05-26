@@ -1,6 +1,14 @@
 import React, { useRef } from 'react'
 import Card from "../Card"
 
+const styles = {
+	card: {
+	  margin: 20,
+	  background: "red"
+	}
+};	
+
+
 function LoginForm({ onLogin }) {
 
 	const formRef = useRef();
@@ -8,6 +16,7 @@ function LoginForm({ onLogin }) {
 	const passwordRef = useRef();
 
 	return (
+		<div style={styles.card}>
 		<Card title="Login with your Username and Password">
 			<form
 				ref={formRef}
@@ -28,6 +37,7 @@ function LoginForm({ onLogin }) {
 				</div>
 			</form>
 		</Card>
+		</div>
 	)
 }
 
