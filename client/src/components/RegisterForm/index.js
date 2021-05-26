@@ -11,6 +11,7 @@ const styles = {
 function RegisterForm({ onRegister }) {
 	// refs
 	const formRef = useRef();
+	const userFirstRef = useRef();
 	const userNameRef = useRef();
 	const passwordRef = useRef();
 
@@ -22,14 +23,16 @@ function RegisterForm({ onRegister }) {
 				onSubmit={(e) => {
 					e.preventDefault();
 					return onRegister({
+					    firstname: userFirstRef.current.value,
 						username: userNameRef.current.value,
 						password: passwordRef.current.value
 					});
 				}}
 			>
 				<div className="form-group">
-					<input className="form-control btn-dark" ref={userNameRef} type='text' name="username" placeholder='Enter Username' /><br />
-					<input className="form-control btn-dark" ref={passwordRef} type='password' name="password" placeholder='Password' /><br />
+				<input className="form-control btn-basic" ref={userFirstRef} type='text' name="firstname" placeholder='Enter Name' /><br />
+					<input className="form-control btn-basic" ref={userNameRef} type='text' name="username" placeholder='Enter Username' /><br />
+					<input className="form-control btn-basic" ref={passwordRef} type='password' name="password" placeholder='Password' /><br />
 					<button className="btn btn btn-primary" type='submit'>Submit</button>
 				</div>
 			</form>
