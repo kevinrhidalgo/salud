@@ -33,14 +33,14 @@ function Login() {
 		})
 			.then((response) => {
 				if (response.status === 200) { //All good
-					Auth.authenticate(() => { //Update the boolean and take off the cuffs
+					Auth.authenticate(() => { 
 						setRedirectToReferrer(true)
 						console.log(`Response in login ${JSON.stringify(response)}`);
 
 					});
 				}
 			})
-			.catch((err) => {// No beuno, kick them
+			.catch((err) => {
 				console.log('Error logging in.', err);
 			});
 	}

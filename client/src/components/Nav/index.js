@@ -4,6 +4,7 @@ import "./style.css";
 // import Login from "../LoginForm";
 import AuthButton from "../AuthButton";
 import { UserContext } from "../../utils/UserContext";
+import logo from "./mylogo.jpg"
 //I want to add some basic inline styling here, even though we are bringing in styles
 const buttonStyle1 = {
   marginRight: 10, 
@@ -40,15 +41,18 @@ function Nav() {
 
 
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-primary bg-light mb-2">
       <Link className="navbar-brand" to="/">
-        salud.
+      <img className="myLogo" src={logo}></img> 
         </Link>
+               
       <div className={`${open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
         {user.username ? <span className="userText text-dark ml-3 pt-1" to="#">Hi {user.username}!</span> : ""}
-        <ul className="navbar-nav d-flex">
+        
+        <ul className="navbar-nav md-flex">
           <li className="nav-item ">
-            <Link style={buttonStyle1} className=" btn btn-info" to="/public">Home</Link>
+            <Link style={buttonStyle1}  className=" btn btn-info" to="/public">Home</Link>
             <Link style={buttonStyle1} className=" btn btn-info" to="/public">Voices</Link>
             <Link style={buttonStyle1} className="btn btn-info" to="/protected">Recipes</Link>
             <Link style={buttonStyle1} className="btn btn-info" to="/protected">Meal Planner</Link>
