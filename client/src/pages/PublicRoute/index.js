@@ -7,7 +7,7 @@ import "./style.css"
 function PublicRoute() {
 
     return (
-    <>   
+    <div className="magazine">   
         <div className="scrollmenu">
 
         <div className="desc">
@@ -151,7 +151,7 @@ function PublicRoute() {
               </div> 
             </div>  
    </div> 
-</>
+</div>
 
     
                 
