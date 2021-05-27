@@ -52,10 +52,10 @@ function Nav() {
         
         <ul className="navbar-nav md-flex">
           <li className="nav-item ">
-            <Link style={buttonStyle1}  className=" btn btn-info" to="/public">Home</Link>
-            <Link style={buttonStyle1} className=" btn btn-info" to="/public">Voices</Link>
-            <Link style={buttonStyle1} className="btn btn-info" to="/protectedrecipes">Recipes</Link>
-            <Link style={buttonStyle1} className="btn btn-info" to="/protected">Meal Planner</Link>
+            <Link style={buttonStyle1}  className=" btn btn-info" to="/home">Home</Link>
+            <Link style={buttonStyle1} className=" btn btn-info" to="/voices">Voices</Link>
+            <Link style={buttonStyle1} className="btn btn-info" to="/recipes">Recipes</Link>
+            <Link style={buttonStyle1} className="btn btn-info" to="/mealplanner">Meal Planner</Link>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto ">

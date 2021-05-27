@@ -20,7 +20,7 @@ function Login() {
 	
 	useEffect(() => {
 
-		const { from } = location.state || { from: { pathname: '/protectedrecipes' } }
+		const { from } = location.state || { from: { pathname: '/recipes' } }
 		if (redirectToReferrer) {
 			history.push(from)
 		}

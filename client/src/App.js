@@ -11,6 +11,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import { Container } from "./components/Grid";
 import PublicRoute from "./pages/PublicRoute";
+import PublicRouteTwo from "./pages/PublicRouteTwo";
 import ProtectedRoute from "./pages/ProtectedRoute";
 import ProtectedRouteTwo from "./pages/ProtectedRouteTwo";
 import './App.css';
@@ -25,11 +26,12 @@ const AuthExample = () => (
 				<Nav className="App-header" />
 				<Container>
 					<Switch>
-						<Route path="/public" component={PublicRoute} />
+						<Route path="/home" component={PublicRoute} />
+						<Route path="/Voices" component={PublicRouteTwo} />
 						<Route path="/login" component={Login} />
 						<Route path="/register" component={Register} />
-						<PrivateRoute path="/protected" component={ProtectedRoute} />
-						<PrivateRoute path="/protectedrecipes" component={ProtectedRouteTwo} />
+						<PrivateRoute path="/mealplanner" component={ProtectedRoute} />
+						<PrivateRoute path="/recipes" component={ProtectedRouteTwo} />
 						{/* <Route component={NoMatch} /> */}
 					</Switch>
 					
