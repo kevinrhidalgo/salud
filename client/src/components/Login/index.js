@@ -17,6 +17,15 @@ function Login() {
 		}
 
 	}, [redirectToReferrer, history, location.state])
+	
+	useEffect(() => {
+
+		const { from } = location.state || { from: { pathname: '/protectedrecipes' } }
+		if (redirectToReferrer) {
+			history.push(from)
+		}
+
+	}, [redirectToReferrer, history, location.state])
 
 
     /* We need to POST to the API the users info,

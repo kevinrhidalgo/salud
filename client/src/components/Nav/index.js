@@ -54,7 +54,7 @@ function Nav() {
           <li className="nav-item ">
             <Link style={buttonStyle1}  className=" btn btn-info" to="/public">Home</Link>
             <Link style={buttonStyle1} className=" btn btn-info" to="/public">Voices</Link>
-            <Link style={buttonStyle1} className="btn btn-info" to="/protected">Recipes</Link>
+            <Link style={buttonStyle1} className="btn btn-info" to="/protectedrecipes">Recipes</Link>
             <Link style={buttonStyle1} className="btn btn-info" to="/protected">Meal Planner</Link>
           </li>
         </ul>
