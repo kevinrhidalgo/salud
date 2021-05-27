@@ -1,9 +1,7 @@
 # salud.
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description 
-Salud is a food application with the purpose of showing users that one can enjoy and have fun eating, all while eating clean. In this application you can read users stories from going vegan, or you can look up healthy recipes, or create a meal planner, or even add your own story regarding your change of eating habits. 
-## Application
-## App Link
+Salud is a food application with the purpose of showing users that one can enjoy and have fun eating, all while eating clean. In this application you can read users stories from going vegan, or you can look up healthy recipes, or create a meal planner, or even add your own story regarding your change of eating habits.
   ## Table of Contents 
 
   * [Installation](#installation)
@@ -12,6 +10,12 @@ Salud is a food application with the purpose of showing users that one can enjoy
   * [contributors](#contributors)
   * [Test](#test)
   * [Contact](#contact)
+## Application
+## App Link
+## WireFrame Link
+https://docs.google.com/presentation/d/1oK3J6VJMgnx9R0EQhHlNcnababVQjXc0bzqMiVEbV2c/edit?usp=sharing
+
+  # Mapped out Checklist
   # Installation
   To run the installation, use the following code:
   npm i, followed by npm start or node server.js
