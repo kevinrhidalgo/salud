@@ -32,7 +32,6 @@ button {
 }
 
 button:hover {
-  background-color: #6c13d1;
   cursor: pointer;
 }
 
@@ -82,14 +81,13 @@ ul {
 
 a {
   text-decoration: none;
-  background-color: #7f21eb;
+  
   color: #f3f3f3;
   width: fit-content;
   padding: 0.5rem 1rem;
 }
 
 a:hover {
-  background-color: #6c13d1;
   cursor: pointer;
 }
 
