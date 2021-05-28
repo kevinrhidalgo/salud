@@ -30,8 +30,8 @@ const AuthExample = () => (
 						<Route path="/Voices" component={PublicRouteTwo} />
 						<Route path="/login" component={Login} />
 						<Route path="/register" component={Register} />
-						<PrivateRoute path="/mealplanner" component={ProtectedRoute} />
-						<PrivateRoute path="/recipes" component={ProtectedRouteTwo} />
+						<PrivateRoute path="/recipes" component={ProtectedRoute} />
+						<PrivateRoute path="/mealplan" component={ProtectedRouteTwo} />
 						{/* <Route component={NoMatch} /> */}
 					</Switch>
 					

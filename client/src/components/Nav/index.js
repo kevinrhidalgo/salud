@@ -54,8 +54,8 @@ function Nav() {
           <li className="nav-item ">
             <Link style={buttonStyle1}  className=" btn btn-info" to="/home">Home</Link>
             <Link style={buttonStyle1} className=" btn btn-info" to="/voices">Voices</Link>
+            <Link style={buttonStyle1} className="btn btn-info" to="/mealplan">Meal Plan</Link>
             <Link style={buttonStyle1} className="btn btn-info" to="/recipes">Recipes</Link>
-            <Link style={buttonStyle1} className="btn btn-info" to="/mealplanner">Meal Planner</Link>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto ">
