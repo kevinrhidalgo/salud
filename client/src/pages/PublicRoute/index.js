@@ -22,7 +22,7 @@ function PublicRoute() {
 
         <div className="desc">
         <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><img src="https://lifeandhealth.org/wp-content/uploads/2021/02/shutterstock_274885196-600x600.jpg" alt="magazineCover"></img></a>
-        <div class="infosec">
+        <div className="infosec">
             <h6>Do You Really Need 10,000<br></br> Steps Per Day?</h6>
                 <p>by: DANNY KWON JD</p>
               </div> 

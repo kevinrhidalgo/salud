@@ -6,7 +6,7 @@ import myLogo from "./logo.PNG"
 
 function Footer() {
   return (
-    <div class="flex-wrapper"> 
+    <div className="flex-wrapper"> 
     <footer>     
     <p> Copyright © 2021 Kevin Hidalgo. <img src={myLogo}></img> </p>
 </footer>  
