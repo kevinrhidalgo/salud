@@ -1,7 +1,7 @@
 # salud.
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description 
-Salud is an application with the purpose of showing users that one can enjoy and have fun eating, all while eating clean. In this application you can read users stories from going vegan, or you can look up healthy recipes, or create a meal planner, or even add your own story regarding your change of eating habits.
+Salud is an application with the purpose of showing users that one can enjoy and have fun eating, all while eating clean. In this application you can read users experiences of creating a change in their lifestyle regarding maybe going vegetarian or vegan, or lets say a change in their way of cooking or even fitness regimen. You can look up healthy recipes, or even create a meal planner where you get meal ideas for someone who is trying to limit themselves to a certain amount of calories. You can also add your own story regarding a change in your life.
   ## Table of Contents 
 
   * [Installation](#installation)
