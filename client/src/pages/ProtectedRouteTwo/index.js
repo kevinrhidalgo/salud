@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from 'react'
-
+import "./index.css"
 import { UserContext } from "../../utils/UserContext";
 
 function ProtectedRoute() {
