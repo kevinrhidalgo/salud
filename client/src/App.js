@@ -18,6 +18,7 @@ import './App.css';
 import { UserProvider } from "./utils/UserContext";
 
 
+
 //Now we have all the stuff we need .. let's render some components with the Router
 const AuthExample = () => (
 	<UserProvider>
@@ -32,10 +33,10 @@ const AuthExample = () => (
 						<Route path="/register" component={Register} />
 						<PrivateRoute path="/recipes" component={ProtectedRoute} />
 						<PrivateRoute path="/mealplan" component={ProtectedRouteTwo} />
-						{/* <Route component={NoMatch} /> */}
+
 					</Switch>
-					
 				</Container>
+		
 			</div>
 		</Router>
 	</UserProvider>
