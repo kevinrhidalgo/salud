@@ -4,7 +4,7 @@ import "./index.css"
 import { UserContext } from "../../utils/UserContext";
 
 function ProtectedRoute() {
-
+    const [value, onChange] = useState(new Date());
 	const [user, dispatch] = useContext(UserContext)
 	console.log(user)
 
