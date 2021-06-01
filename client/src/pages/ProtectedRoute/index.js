@@ -1,10 +1,12 @@
-import React, { useEffect, useContext } from 'react'
-import Card from "../../components/Card"
+import React, { useEffect, useContext, useState } from 'react'
+import MealList from "../../components/MealList/MealList";
 import { UserContext } from "../../utils/UserContext";
 
 /* This is a very simple component.. it probably doesn't need to be a smart component at this point but you never know what's goingto happen in the future */
 
 function ProtectedRoute() {
+	const [mealData, setMealData] = useState(null);
+	const [calories, setCalories] = useState(2000);
 
 	const [user, dispatch] = useContext(UserContext)
 	console.log(user)
@@ -30,17 +32,41 @@ function ProtectedRoute() {
 				console.log('Error fetching authorized user.');
 			});
 
-	}, []);
+	}, );
+	function getMealData() {
+		fetch(
+		  `https://api.spoonacular.com/mealplanner/generate?apiKey=cb1c464d94f142c08b156c5beddade8b&timeFrame=day&targetCalories=${calories}`
+		)
+		  .then((response) => response.json())
+		  .then((data) => {
+			setMealData(data);
+		  })
+		  .catch(() => {
+			console.log("error");
+		  });
+	  }
+	
+	  function handleChange(e) {
+		setCalories(e.target.value);
+	  }
 
 	return (
-		<div className="container">
-			<div className="alert alert-success" role="alert">
+		
+				<div className="App">
+					<div className="alert alert-success" role="alert">
 				Success, You are logged in
 				</div>
-			<Card title="Welcome.">
-				<p>You are logged in.</p>
-			</Card>
-		</div>
+      <section className="controls">
+        <input
+          type="number"
+          placeholder="Calories (e.g. 2000)"
+          onChange={handleChange}
+        />
+        <button onClick={getMealData}>Get Daily Meal Plan</button>
+      </section>
+      {mealData && <MealList mealData={mealData} />}
+    </div>
+
 	)
 
 }
