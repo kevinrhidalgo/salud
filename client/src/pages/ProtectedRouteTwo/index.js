@@ -1,12 +1,19 @@
 import React, { useEffect, useContext, useState } from 'react'
 import Calendar from 'react-calendar';
 import "./index.css"
+import styled from 'styled-components';
 import { UserContext } from "../../utils/UserContext";
 
+const Wrapper = styled.section`
+width:450px;
+height:300px;
+background-color:white;
+`;
+
 function ProtectedRoute() {
-    const [value, onChange] = useState(new Date());
 	const [user, dispatch] = useContext(UserContext)
 	console.log(user)
+    const [value, onChange] = useState(new Date());
 
 	useEffect(() => {
 		fetch('api/users/user', {
@@ -32,6 +39,13 @@ function ProtectedRoute() {
 	}, );
 	
 	return (
+        <>
+        <Wrapper>
+      <Calendar
+        onChange={onChange}
+        value={value}
+      />
+    </Wrapper>
 		<div className = "weeklyPlaner">
      <div className = "planTitle"> <h1>WEEKLY MEAL PLANNER</h1> </div>
      <div className = "firstThree">
@@ -86,6 +100,7 @@ function ProtectedRoute() {
      </div>
 
      </div>
+     </>
 	)
 
 }

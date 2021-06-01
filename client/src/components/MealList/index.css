@@ -24,7 +24,7 @@ input {
 button {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: red;
+  background-color: #222222;
   color: #f3f3f3;
   border: none;
   font-family: "Roboto", sans-serif;
