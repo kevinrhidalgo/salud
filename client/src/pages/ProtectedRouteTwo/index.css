@@ -1,0 +1,65 @@
+.weeklyDay {
+    display: flex;
+    flex-direction: column;
+    background-color: #152238;
+    width: 250px;
+    justify-content: space-around;
+    border: 5px solid #152238 ;
+    box-shadow: 10px 10px 5px grey;
+}
+.firstThree
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.nextThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+.lastDay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.planTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.weeklyDay h3{
+    display: flex;
+    justify-content: center;
+    background-color: #152238;
+    color: white;
+    font-size: 40px;
+}
+
+.textArea {
+    height:100px;
+}
+
+#textArea {
+    height: 300px;
+  
+}
+#shoppingList {
+    display: flex;
+    flex-direction: column;
+    background-color: #152238;
+    width: 450px;
+    justify-content: space-around;
+    border: 5px solid #152238 ;
+    box-shadow: 10px 10px 5px grey;
+}
+#shoppingList h3{
+display: flex;
+justify-content: center;
+background-color: #152238;
+color: white;
+font-size: 40px;
+
+}
