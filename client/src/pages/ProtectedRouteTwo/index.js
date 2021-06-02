@@ -3,6 +3,8 @@ import Calendar from 'react-calendar';
 import "./index.css"
 import styled from 'styled-components';
 import { UserContext } from "../../utils/UserContext";
+import Header from '../../components/Header'
+import Body from '../../components/Body'
 
 const Wrapper = styled.section`
 width:450px;
@@ -40,6 +42,8 @@ function ProtectedRoute() {
 	
 	return (
         <>
+        <Header />
+<Body />
         <Wrapper>
       <Calendar
         onChange={onChange}
