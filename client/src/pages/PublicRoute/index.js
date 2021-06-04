@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./style.css"
 
@@ -7,11 +8,21 @@ const authorName = {
 fontSize: 10,
 fontWeight: "bold",
 marginLeft:14
+
 };
 
 const titleName = {
 fontSize: 17,
-fontWeight:110
+fontWeight:110,
+color:"red",
+paddingLeft:18
+}
+
+const descName = {
+  fontSize: 15,
+fontWeight:160,
+margin: 30,
+font:"Helvetica"
 }
 
 
@@ -47,7 +58,7 @@ function PublicRoute() {
         <a href="https://lifeandhealth.org/lifestyle/intermittent-fasting-does-it-work/1017874.html"><img src="https://lifeandhealth.org/wp-content/uploads/2020/02/shutterstock_209969872-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
             <h6 style ={titleName}>Intermittent Fasting Does It Work?</h6>
-            <p style={titleName}>The big three areas of healthy living are diet, exercise, and sleep.  
+            <p style={descName}>The big three areas of healthy living are diet, exercise, and sleep.  
               One, currently popular dietary technique that integrates all 3 of these areas is i
               ntermittent fasting.  So what is intermittent fasting and what are the benefits? <a className="linkBtn" href="https://lifeandhealth.org/lifestyle/intermittent-fasting-does-it-work/1017874.html">Read More..</a></p>
                 <p style ={authorName}>by: HARVEY HAHN, MD, FACC</p>
