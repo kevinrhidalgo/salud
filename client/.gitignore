@@ -78,5 +78,3 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-
-const nutritionAppID = "f73c3581"
