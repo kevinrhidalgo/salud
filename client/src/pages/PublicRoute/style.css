@@ -10,11 +10,43 @@ body {
   
   
 }
-.magazine{
-    margin-left: auto;
-    margin-right: auto;
-    width: 35em;
+
+.articleSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
 }
+.leftPage {
+width: 300px;
+height: 300px;
+
+
+}
+.desc{
+  border: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 7px 7px 3px gray;
+  background-color:white ;
+}
+
+.descTwo{
+width: 600px;
+border: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 7px 7px 3px gray;
+  background-color:white ;
+}
+
+
+
+
+
+
 .scrollmenu {
     background-color: #F4F0DB;
     overflow: auto;
@@ -36,52 +68,5 @@ body {
     background-color: #Fffdd0;
   }
 
-  img{
-    width: 230px;
-    height: 230px;
-  }
   
-  .card {
-    width: 450px;
-    height: 320px;
-    background-color:#F4F0DB;
-    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-    border-radius: 6px;
-    overflow: hidden;
-    position: relative;
-    margin: 1.5rem;
-  
-  }
-  
-  .card h1 {
-    text-align: center;
-  }
-  
-  .card .additional {
-    position: absolute;
-    width: 150px;
-    height:100px;
-    background-color:white;
-    transition: width 0.4s;
-    overflow: hidden;
-    z-index: 2;
-  }
-  
-  .card:hover .additional {
-    width: 300px;
-  
-   
-  }
-  .desc{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    
-    font-size: 8px;
-  }
-  
-  .infosec{
-    size: 20px;
-    padding-left: 15px;
-  }
   
