@@ -10,8 +10,15 @@ import logo from "./mylogo.jpg"
 //basic inline styling
 const buttonStyle1 = {
   marginRight: 10, 
+  color:"#222222",
+  fontSize: "18px"
 };
 
+const headerName ={
+  fontSize:"60px",
+  color:"black",
+  marginLeft:80
+}
 
 
 function Nav() {
@@ -42,29 +49,33 @@ function Nav() {
   return (
     
     <nav className="navbar navbar-expand-lg navbar-primary mb-2">
-      <Link className="navbar-brand" to="/home">
-      <img className="myLogo" src={logo}></img> 
-        </Link>
+      
                
       <div className={`${open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
         {user.username ? <span className="userText text-dark ml-3 pt-1" to="#">Hi {user.username}!</span> : ""}
         
         <ul className="navbar-nav md-flex">
           <li className="nav-item ">
-            <Link style={buttonStyle1}  className=" btn btn-info" to="/home">Home</Link>
-            <Link style={buttonStyle1} className=" btn btn-info" to="/voices">Voices</Link>
-            <Link style={buttonStyle1} className="btn btn-info" to="/mealplan">Meal Plan</Link>
-            <Link style={buttonStyle1} className="btn btn-info" to="/recipes">Recipes</Link>
+            <Link style={buttonStyle1}  className=" btn" to="/home">Home</Link>
+            <Link style={buttonStyle1} className=" btn " to="/voices">Voices</Link>
+            <Link style={buttonStyle1} className="btn" to="/mealplan">Meal Plan</Link>
+            <Link style={buttonStyle1} className="btn " to="/recipes">Recipes</Link>
           </li>
         </ul>
+       
+        <Link className="navbar-brand" to="/home">
+     <div style={headerName}>Salud.</div> 
+        </Link>
+
         <ul className="navbar-nav ml-auto ">
           <li>
           {user.username ? "" :
-              <Link style={buttonStyle1} className="btn btn-dark" to="/register">Sign Up!</Link>
+              <Link style={buttonStyle1} className="btn" to="/register">Sign Up</Link>
             }
             <AuthButton />
           </li>
         </ul>
+        
       </div>
     </nav>
   );
