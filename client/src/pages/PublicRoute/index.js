@@ -95,19 +95,15 @@ function PublicRoute() {
 
 
 <div className="descThree">
-        <a href="https://lifeandhealth.org/nutrition/turmeric-the-what-the-why-and-the-how/1511117.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/07/taylor-kiser-361164-unsplash-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>Turmeric: The What, The Why,<br></br> And The How</h6>
+        <a href="https://lifeandhealth.org/nutrition/turmeric-the-what-the-why-and-the-how/1511117.html"><h6>Turmeric: The What, The Why,<br></br> And The How</h6></a>
                 <p>by:JUSTIN LEAL </p>
-              </div> 
-            </div>
+          </div>
+
+<div class="vLine"></div>
 
             <div className="descThree">
-            <a href="https://lifeandhealth.org/food/why-plant-based/an-interview-with-a-plant-based-doctor-and-autoimmune-disease-cookbook-author/0815050.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/04/asdf-600x460.png" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>We Sit Down With Plant-Based <br></br>Doctor And Autoimmune Disease <br></br>Cookbook Author, Dr. Joyce Choe</h6>
-                <p>by: GRACE JAUWENA</p>
-              </div> 
+            <a href="https://lifeandhealth.org/food/why-plant-based/an-interview-with-a-plant-based-doctor-and-autoimmune-disease-cookbook-author/0815050.html"><h6>We Sit Down With Plant-Based <br></br>Doctor And Autoimmune Disease <br></br>Cookbook Author, Dr. Joyce Choe</h6></a>
+                  <p>by: GRACE JAUWENA</p>   
             </div>  
    </div> 
 
