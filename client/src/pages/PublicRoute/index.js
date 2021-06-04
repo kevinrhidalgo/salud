@@ -45,7 +45,7 @@ function PublicRoute() {
 <div className="descTwo">
         <a href="https://lifeandhealth.org/lifestyle/intermittent-fasting-does-it-work/1017874.html"><img src="https://lifeandhealth.org/wp-content/uploads/2020/02/shutterstock_209969872-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
-            <h6>Intermittent Fasting Does It Work?</h6>
+            <h6 style ={titleName}>Intermittent Fasting Does It Work?</h6>
             <p>The big three areas of healthy living are diet, exercise, and sleep.  
               One, currently popular dietary technique that integrates all 3 of these areas is i
               ntermittent fasting.  So what is intermittent fasting and what are the benefits? <a className="linkBtn" href="https://lifeandhealth.org/lifestyle/intermittent-fasting-does-it-work/1017874.html">Read More..</a></p>
@@ -54,25 +54,20 @@ function PublicRoute() {
     </div>  
     <div class="hl"></div>
 
+
     <div className="scrollmenu">
  
-
-    <div className="descThree">
-        <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/10/rawpixel-1071089-unsplash-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>What’s The Big Deal About Protein?</h6>
+     <div className="descThree">
+           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6>What’s The Big Deal About Protein?</h6></a> 
                 <p>by: RAEANN LEAL</p>
-              </div> 
-            </div>
-
+             </div>
+             
+             <div class="vLine"></div>
 
             <div className="descThree">
-        <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/10/amanda-dalbjorn-258807-unsplash-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6>
+      <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"> <h6>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6></a>
                 <p>by: JUSTIN LEAL</p>
-              </div> 
-            </div>
+          </div>
 
 
             <div className="descThree">

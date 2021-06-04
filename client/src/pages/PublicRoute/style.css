@@ -48,6 +48,7 @@ height: 300px;
 
 .descTwo{
 width: 600px;
+height: 700px;
 border: black solid 2px;
   display: flex;
   flex-direction: column;
@@ -68,7 +69,12 @@ border: black solid 2px;
 }
 
 
+.vLine{
+  border-top: 2px solid black;
 
+  width: 200px;
+  padding-bottom: 10px;
+}
 
 .scrollmenu {
   border: black solid 2px;
