@@ -43,7 +43,7 @@ function Nav() {
   return (
     
     <nav className="navbar navbar-expand-lg navbar-primary bg-light mb-2">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/home">
       <img className="myLogo" src={logo}></img> 
         </Link>
                
