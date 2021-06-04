@@ -12,7 +12,7 @@ marginLeft:14
 };
 
 const titleName = {
-fontSize: 17,
+fontSize: 16,
 fontWeight:110,
 color:"red",
 paddingLeft:18
@@ -31,6 +31,7 @@ function PublicRoute() {
 
     return (
       <>
+      <h1>Mens Health Magazine</h1>
     <div class="vl"></div>
     <div className="articleSection">   
 
