@@ -61,22 +61,21 @@ function PublicRoute() {
            <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6>What’s The Big Deal About Protein?</h6></a> 
                 <p>by: RAEANN LEAL</p>
              </div>
-             
+
              <div class="vLine"></div>
 
             <div className="descThree">
       <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"> <h6>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6></a>
                 <p>by: JUSTIN LEAL</p>
           </div>
-
+<div class="vLine"></div>
 
             <div className="descThree">
-        <a href="https://lifeandhealth.org/nutrition/the-surprising-connection-between-diet-and-alzheimers-disease/0911063.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/07/jess-watters-701054-unsplash-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>What’s The Connection Between <br></br>Diet And Alzheimer’s Disease?</h6>
-                <p>by: RAEANN LEAL</p>
-              </div>
+        <a href="https://lifeandhealth.org/nutrition/the-surprising-connection-between-diet-and-alzheimers-disease/0911063.html"><h6>What’s The Connection Between <br></br>Diet And Alzheimer’s Disease?</h6></a>
+                <p>by: RAEANN LEAL</p>   
             </div>
+
+<div class="vLine"></div>
 
 
             <div className="descThree"> 
