@@ -5,7 +5,9 @@ import "./style.css";
 import AuthButton from "../AuthButton";
 import { UserContext } from "../../utils/UserContext";
 import logo from "./mylogo.jpg"
-//I want to add some basic inline styling here, even though we are bringing in styles
+
+
+//basic inline styling
 const buttonStyle1 = {
   marginRight: 10, 
 };
@@ -26,9 +28,6 @@ function Nav() {
     setWidth(window.innerWidth)
   };
 
-  // const toggleNav = () => {
-  //   setOpen(!open);
-  // };
 
   useEffect(() => {
 
