@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
+
 // import Login from "../LoginForm";
 import AuthButton from "../AuthButton";
 import { UserContext } from "../../utils/UserContext";
-import logo from "./mylogo.jpg"
+
 
 
 //basic inline styling
