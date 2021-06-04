@@ -79,21 +79,19 @@ function PublicRoute() {
 
 
             <div className="descThree"> 
-        <a href="https://lifeandhealth.org/lifestyle/your-gut-health-and-why-you-should-care-about-it/109138.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/05/UMH_C_OBESE-MICRo@1x-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>Your Gut Health And Why <br></br>You Should Care About It</h6>
-                <p>by: RAEANN LEAL</p>
-              </div> 
+        <a href="https://lifeandhealth.org/lifestyle/your-gut-health-and-why-you-should-care-about-it/109138.html"><h6>Your Gut Health And Why <br></br>You Should Care About It</h6></a>
+              <p>by: RAEANN LEAL</p>
             </div>
 
+<div class="vLine"></div>
 
             <div className="descThree">
-        <a href="https://lifeandhealth.org/healing/natural-remedies-a-brief-history/1711827.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/10/marie-grob-1040982-unsplash-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6>Natural Remedies: A Brief History</h6>
+        <a href="https://lifeandhealth.org/healing/natural-remedies-a-brief-history/1711827.html"><h6>Natural Remedies: A Brief History</h6></a>
                 <p>by: GRACE JAUWENA</p>
-              </div> 
+             
             </div>
+
+<div class="vLine"></div>
 
 
 <div className="descThree">
