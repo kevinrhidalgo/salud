@@ -12,7 +12,7 @@ body {
 }
 
 .vl {
-  border-top: 2px solid black;
+  border-top: 1px solid black;
   width: 1100px;
   padding-bottom: 20px;
 }
@@ -32,7 +32,7 @@ height: 300px;
 
 }
 .desc{
-  border: black solid 2px;
+  border: black solid 1px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -41,15 +41,15 @@ height: 300px;
 }
 
 .hl {
-  border-left: 2px solid ;
-  height: 800px;
+  border-left: 1px solid ;
+  height: 700px;
   margin: 40px;
 }
 
 .descTwo{
 width: 600px;
 height: 700px;
-border: black solid 2px;
+border: black solid 1px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -62,7 +62,7 @@ border: black solid 2px;
 }
 
 .descthree{
-  border: black solid 2px;
+  border: black solid 1px;
   border-radius: 10px;
   box-shadow: 7px 7px 3px gray;
   background-color:white ;
@@ -70,14 +70,13 @@ border: black solid 2px;
 
 
 .vLine{
-  border-top: 2px solid black;
-
+  border-top: 1px solid black;
   width: 200px;
   padding-bottom: 10px;
 }
 
 .scrollmenu {
-  border: black solid 2px;
+  border: black solid 1px;
   border-radius: 10px;
   box-shadow: 7px 7px 3px gray;
   background-color:white ;
@@ -87,9 +86,9 @@ border: black solid 2px;
     height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
   }
+
   .scrollmenu a {
     display: inline-block;
     color: #222222;
@@ -102,5 +101,22 @@ border: black solid 2px;
     background-color: #Fffdd0;
   }
 
-  
+ .scrollmenuTwo{
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+
+ }
+
+    .scrollmenuTwo a {
+      display: inline-block;
+      color: #222222;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    .scrollmenuTwo  a:hover {
+      background-color: #Fffdd0;
+    }
   
