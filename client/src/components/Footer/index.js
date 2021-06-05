@@ -9,7 +9,7 @@ import Email from "./email.PNG"
 const footerImg ={
 border: "black solid 1px",
 width: 40,
-height: 80
+height: 50
 }
 
 
@@ -24,14 +24,15 @@ function Footer() {
 
     <footer>     
 
-    <div><p> Copyright © 2021 Kevin Hidalgo. </p></div>
-
+    <p> Copyright © 2021 Kevin Hidalgo. 
+    <br/>
     <div className="contactList">
     <img style={footerImg} src={Ig}/>
     <img style={footerImg} src={Github}/>
     <img style={footerImg} src={Twitter}/>
     <img style={footerImg} src={Email}/>
     </div>
+    </p>
     
    
 </footer>  

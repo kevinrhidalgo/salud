@@ -8,8 +8,11 @@ footer p{
     float: left;
     background-color: white;
     width: 1200px;
-    height: 60px;
+    height:140px;
     padding:10px; 
     position:absolute;
   }
 
+  .contactList img{
+    margin: 8px 8px 8px 8px;
+  }
