@@ -93,9 +93,6 @@ function PublicRoute() {
  
      <div className="descThree">
            <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleName}>What’s The Big Deal About <br/> Protein?</h6></a>
-           <p style={descNameTwo}>Especially for those of us working <br/> in the
-              health and wellness field,<br/> we hear this word so 
-              many times <br/> that it’s lost its meaning....</p> 
                 <p style ={authorName}>by: RAEANN LEAL</p>
              </div>
 
@@ -103,7 +100,6 @@ function PublicRoute() {
 
             <div className="descThree">
       <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"> <h6 style ={titleName}>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6></a>
-                <p style={descNameTwo}> When it comes to nutrition, we rarely <br/> talk about eyes. We uphold our hearts, <br/> our hands, and ....</p>
                 <p style ={authorName}>by: JUSTIN LEAL</p>
           </div>
 <div class="vLine"></div>
@@ -157,6 +153,7 @@ function PublicRoute() {
         <a href="https://lifeandhealth.org/lifestyle/how-to-get-better-sleep/1717188.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/09/vladislav-muslakov-CwIU33KGToc-unsplash-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
             <h6 style ={titleName}>How To Get Better Sleep</h6>
+            <p style={descName}> Why is sleep so important?  Poor sleep is associated with weight gain, depression, worse mood, decreased energy, poor attention, and  <a className="linkBtn" href="https://lifeandhealth.org/lifestyle/how-to-get-better-sleep/1717188.html">Read More...</a></p>
                 <p style ={authorName}>by: HARVEY HAHN, MD, FACC</p>
               </div>            
     </div>
