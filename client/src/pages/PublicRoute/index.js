@@ -217,11 +217,11 @@ function PublicRoute() {
 
 
         <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html">
+        <a href="https://lifeandhealth.org/fitness/5-ways-to-keep-your-motivation-to-exercise/1514065.html">
           <h6 style ={titleNameBtm}>5 Ways To Keep Your Motivation To Exercise</h6>
           <p style ={authorName}>by: WESTNEY WHITE</p> 
           </a>
-       <img style ={btmImage} src="https://lifeandhealth.org/wp-content/uploads/2021/02/shutterstock_274885196-800x600.jpg"/>
+       <img style ={btmImage} src="https://lifeandhealth.org/wp-content/uploads/2019/01/rawpixel-1162836-unsplash-800x600.jpg"/>
                         
     </div>
 

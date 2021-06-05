@@ -34,6 +34,9 @@ height: 300px;
   box-shadow: 7px 7px 3px gray;
   background-color:white ;
 }
+.desc:hover{
+  background-color: #Fffdd0;
+}
 .vl {
   border-top: 2px solid black;
   width: 1110px;
@@ -56,6 +59,9 @@ height: 700px;
   box-shadow: 7px 7px 3px gray;
   background-color:white ;
 }
+.descTwo:hover{
+  background-color: #Fffdd0;
+}
 .linkBtn{
   color:teal;
 
@@ -63,6 +69,10 @@ height: 700px;
 
 .descThree{
   padding: 10px;
+}
+
+.descThree:hover{
+  background-color: #Fffdd0;
 }
 
 
@@ -129,6 +139,10 @@ height: 700px;
   background-color:white ;
   width:400px;
  height:470px;
+}
+
+.descFour:hover{
+  background-color: #Fffdd0;
 }
 
 .descFive{
