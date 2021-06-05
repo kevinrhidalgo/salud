@@ -14,9 +14,6 @@ body {
 }
 
 
-
-
-
 .articleSection{
   display: flex;
   flex-direction: row;
@@ -66,11 +63,8 @@ border: black solid 1px;
 
 }
 
-.descthree{
-  border: black solid 3px;
-  border-radius: 10px;
-  box-shadow: 7px 7px 3px gray;
-  background-color:white ;
+.descThree{
+  padding: 10px;
 }
 
 
@@ -78,6 +72,7 @@ border: black solid 1px;
   border-top: 3px solid black;
   width: 200px;
   padding-bottom: 10px;
+  margin-left:35px
 }
 
 .scrollmenu {
@@ -87,11 +82,14 @@ border: black solid 1px;
   background-color:white ;
     overflow: auto;
     white-space: nowrap;
-    width:400px;
+    width:460px;
     height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
+    padding-top: 30px; 
+    padding-left: 10px;
+    padding-right: 15px;
   }
 
   .scrollmenu a {
@@ -144,6 +142,7 @@ border: black solid 1px;
   box-shadow: 7px 7px 3px gray;
   background-color:white ;
   width: 270px;
+  margin: 1px 20px 3px;
 }
 
 .descfiveOne{

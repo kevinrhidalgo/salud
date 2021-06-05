@@ -14,15 +14,24 @@ marginLeft:14
 const titleName = {
 fontSize: 16,
 fontWeight:110,
-color:"red",
+color:"teal",
+fontWeight:"bold",
 paddingLeft:18
 }
 
 const descName = {
   fontSize: 15,
 fontWeight:160,
-margin: 30,
+margin:20,
 font:"Helvetica"
+}
+const descNameTwo = {
+  fontSize: 14,
+fontWeight:160,
+marginRight:10,
+font:"Helvetica",
+display:"flex",
+justifyContent: "center"
 }
 const headerTitle = {
   fontSize: 90,
@@ -83,7 +92,10 @@ function PublicRoute() {
     <div className="scrollmenu">
  
      <div className="descThree">
-           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleName}>What’s The Big Deal About <br/> Protein?</h6></a> 
+           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleName}>What’s The Big Deal About <br/> Protein?</h6></a>
+           <p style={descNameTwo}>Especially for those of us working <br/> in the
+              health and wellness field,<br/> we hear this word so 
+              many times <br/> that it’s lost its meaning....</p> 
                 <p style ={authorName}>by: RAEANN LEAL</p>
              </div>
 
@@ -91,6 +103,7 @@ function PublicRoute() {
 
             <div className="descThree">
       <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"> <h6 style ={titleName}>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6></a>
+                <p style={descNameTwo}> When it comes to nutrition, we rarely <br/> talk about eyes. We uphold our hearts, <br/> our hands, and ....</p>
                 <p style ={authorName}>by: JUSTIN LEAL</p>
           </div>
 <div class="vLine"></div>
