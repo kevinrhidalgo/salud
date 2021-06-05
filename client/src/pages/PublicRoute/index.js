@@ -3,7 +3,7 @@ import React from 'react'
 import "./style.css"
 
 
-/* This is a very simple component.. it probably doesn't need to be a smart component at this point but you never know what's goingto happen in the future */
+
 const authorName = {
 fontSize: 10,
 fontWeight: "bold",
@@ -26,7 +26,8 @@ font:"Helvetica"
 }
 const headerTitle = {
   fontSize: 110,
-  fontFamily: "Stint Ultra Condensed, cursive"
+  fontFamily: "Stint Ultra Condensed, cursive",
+  fontWeight:"bold"
 }
 
 
@@ -37,7 +38,9 @@ function PublicRoute() {
       <>
       <br/>
       <h1 style ={headerTitle}>The Weekender</h1>
+
     <div class="vl"></div>
+
     <div className="articleSection">   
 
     
@@ -49,7 +52,9 @@ function PublicRoute() {
                 <p style ={authorName}>by: PATRICK WOOD, ATC, CSCS</p>
               </div> 
     </div>
+
     <br/>
+
     <div className="desc">
         <a href="https://lifeandhealth.org/lifestyle/the-truth-about-burning-and-storing-fat/08406.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/12/vera-cho-789594-unsplash-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
@@ -58,6 +63,7 @@ function PublicRoute() {
               </div> 
     </div>
 </div> 
+
 <div class="hl"></div>
 
 <div className="descTwo">
@@ -70,6 +76,7 @@ function PublicRoute() {
                 <p style ={authorName}>by: HARVEY HAHN, MD, FACC</p>
               </div> 
     </div>  
+
     <div class="hl"></div>
 
 
@@ -127,6 +134,7 @@ function PublicRoute() {
    
 
 </div>   
+
 <div class="vl"></div>
 
    

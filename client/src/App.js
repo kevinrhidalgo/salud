@@ -16,6 +16,7 @@ import ProtectedRoute from "./pages/ProtectedRoute";
 import ProtectedRouteTwo from "./pages/ProtectedRouteTwo";
 import './App.css';
 import { UserProvider } from "./utils/UserContext";
+import Footer from "./components/Footer/index"
 
 
 
@@ -33,13 +34,16 @@ const AuthExample = () => (
 						<Route path="/register" component={Register} />
 						<PrivateRoute path="/recipes" component={ProtectedRoute} />
 						<PrivateRoute path="/mealplan" component={ProtectedRouteTwo} />
-
+						
 					</Switch>
+					<Footer/>
 				</Container>
-		
+
 			</div>
 		</Router>
+		
 	</UserProvider>
+	
 )
 
 
