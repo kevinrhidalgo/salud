@@ -150,6 +150,7 @@ function PublicRoute() {
 
     <div class="hl"></div>
 
+<div className="bottomLeft">
     <div className ="descfiveOne">
 
     <div className="descFive">
@@ -168,7 +169,7 @@ function PublicRoute() {
     </div>
     </div>
     
-    <div class="vl"></div>
+    <div class="vlFive"></div>
     
 
     <div className = "descfiveOne">
@@ -185,7 +186,7 @@ function PublicRoute() {
     </div>
 
  </div>
-
+ </div>
     
   </div>   
 

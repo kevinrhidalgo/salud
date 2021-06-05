@@ -13,11 +13,8 @@ body {
   
 }
 
-.vl {
-  border-top: 3px solid black;
-  width: 1100px;
-  padding-bottom: 20px;
-}
+
+
 
 
 .articleSection{
@@ -146,4 +143,21 @@ border: black solid 1px;
 .descfiveOne{
   display: flex;
   flex-direction: row;
+  padding: 50px;
+}
+
+.bottomLeft{
+display: flex;
+flex-direction: column;
+
+}
+.vlFive {
+  border-top: 3px solid black;
+  width: 750px;
+  padding-bottom: 20px;
+}
+
+.bottomHalf{
+display: flex;
+flex-direction: row;
 }
