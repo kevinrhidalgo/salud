@@ -13,11 +13,16 @@ marginLeft:14
 
 const titleName = {
 fontSize: 16,
-fontWeight:110,
-color:"teal",
-fontWeight:"bold",
-paddingLeft:18
+fontWeight:520,
+display:"flex",
+justifyContent:"center"
 }
+
+const titleNameTwo = {
+  fontSize: 16,
+  fontWeight:520,
+  paddingRight:30
+  }
 
 const descName = {
   fontSize: 15,
@@ -25,20 +30,23 @@ fontWeight:160,
 margin:20,
 font:"Helvetica"
 }
-const descNameTwo = {
-  fontSize: 14,
-fontWeight:160,
-marginRight:10,
-font:"Helvetica",
-display:"flex",
-justifyContent: "center"
-}
+
 const headerTitle = {
   fontSize: 90,
   fontFamily: "Stint Ultra Condensed, cursive",
   fontWeight:"bold"
 }
-
+const rightTitle = {
+ color:"teal",
+ fontWeight:"bold"
+}
+const titleNameBtm = {
+  fontSize: 16,
+  fontWeight:520,
+  display:"flex",
+  justifyContent:"center",
+  color:"black"
+  }
 
 
 function PublicRoute() {
@@ -92,51 +100,54 @@ function PublicRoute() {
     <div className="scrollmenu">
  
      <div className="descThree">
-           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleName}>What’s The Big Deal About <br/> Protein?</h6></a>
+       <h5 style={rightTitle}>Nutrition Journal</h5>
+           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleNameTwo}>What’s The Big Deal About <br/> Protein?</h6></a>
                 <p style ={authorName}>by: RAEANN LEAL</p>
              </div>
 
              <div class="vLine"></div>
-
+<h5 style={rightTitle}>Lifestyle Advice</h5>
             <div className="descThree">
-      <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"> <h6 style ={titleName}>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6></a>
+      <a href="https://lifeandhealth.org/lifestyle/can-your-diet-and-lifestyle-affect-your-vision/1611990.html"> <h6 style ={titleNameTwo}>Can Your Diet And Lifestyle<br></br> Affect Your Vision?</h6></a>
                 <p style ={authorName}>by: JUSTIN LEAL</p>
           </div>
 <div class="vLine"></div>
 
+<h5 style={rightTitle}>Health & Diet</h5>
             <div className="descThree">
-        <a href="https://lifeandhealth.org/nutrition/the-surprising-connection-between-diet-and-alzheimers-disease/0911063.html"><h6 style ={titleName}>What’s The Connection <br/>Between Diet And Alzheimer’s <br/> Disease?</h6></a>
+        <a href="https://lifeandhealth.org/nutrition/the-surprising-connection-between-diet-and-alzheimers-disease/0911063.html"><h6 style ={titleNameTwo}>What’s The Connection <br/>Between Diet And Alzheimer’s <br/> Disease?</h6></a>
                 <p style ={authorName}>by: RAEANN LEAL</p>   
             </div>
 
 <div class="vLine"></div>
 
-
+<h5 style={rightTitle}>Me, Myself and I care</h5>
             <div className="descThree"> 
-        <a href="https://lifeandhealth.org/lifestyle/your-gut-health-and-why-you-should-care-about-it/109138.html"><h6 style ={titleName}>Your Gut Health And Why <br></br>You Should Care About It</h6></a>
+        <a href="https://lifeandhealth.org/lifestyle/your-gut-health-and-why-you-should-care-about-it/109138.html"><h6 style ={titleNameTwo}>Your Gut Health And Why <br></br>You Should Care About It</h6></a>
               <p style ={authorName}>by: RAEANN LEAL</p>
             </div>
 
 <div class="vLine"></div>
 
+<h5 style={rightTitle}>Letter from the pasts </h5>
             <div className="descThree">
-        <a href="https://lifeandhealth.org/healing/natural-remedies-a-brief-history/1711827.html"><h6 style ={titleName}>Natural Remedies: A Brief History</h6></a>
+        <a href="https://lifeandhealth.org/healing/natural-remedies-a-brief-history/1711827.html"><h6 style ={titleNameTwo}>Natural Remedies: A Brief History</h6></a>
                 <p style ={authorName}>by: GRACE JAUWENA</p>
              
             </div>
 
 <div class="vLine"></div>
 
-
+<h5 style={rightTitle}>The cooking scene</h5>
 <div className="descThree">
-        <a href="https://lifeandhealth.org/nutrition/turmeric-the-what-the-why-and-the-how/1511117.html"><h6 style ={titleName}>Turmeric: The What, The Why,<br></br> And The How</h6></a>
+        <a href="https://lifeandhealth.org/nutrition/turmeric-the-what-the-why-and-the-how/1511117.html"><h6 style ={titleNameTwo}>Turmeric: The What, The Why,<br></br> And The How</h6></a>
                 <p style ={authorName}>by:JUSTIN LEAL </p>
           </div>
 
 <div class="vLine"></div>
-
+<h5 style={rightTitle}>Doctors Advice</h5>
             <div className="descThree">
-            <a href="https://lifeandhealth.org/food/why-plant-based/an-interview-with-a-plant-based-doctor-and-autoimmune-disease-cookbook-author/0815050.html"><h6 style ={titleName}>We Sit Down With Plant-Based <br/> Doctor And Autoimmune <br/> Disease Cookbook Author, <br/> Dr. Joyce Choe</h6></a>
+            <a href="https://lifeandhealth.org/food/why-plant-based/an-interview-with-a-plant-based-doctor-and-autoimmune-disease-cookbook-author/0815050.html"><h6 style ={titleNameTwo}>We Sit Down With Plant-Based <br/> Doctor And Autoimmune <br/> Disease Cookbook Author, <br/> Dr. Joyce Choe</h6></a>
                   <p style ={authorName}>by: GRACE JAUWENA</p>   
             </div>  
    </div> 
@@ -164,7 +175,7 @@ function PublicRoute() {
     <div className ="descfiveOne">
 
     <div className="descFive">
-        <a href="https://lifeandhealth.org/nutrition/morning-coffee-can-impair-blood-sugar-response/1520002.html"><h6 style ={titleName}>Morning Coffee Can Impair <br></br>Blood Sugar Response</h6></a>
+        <a href="https://lifeandhealth.org/nutrition/morning-coffee-can-impair-blood-sugar-response/1520002.html"><h6 style ={titleNameBtm}>Morning Coffee Can Impair <br></br>Blood Sugar Response</h6></a>
             <p style ={authorName}>by: DANNY KWON JD</p>
           
         </div>
@@ -172,7 +183,7 @@ function PublicRoute() {
 
 
         <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><h6 style ={titleName}>Do You Really Need 10,000<br></br> Steps Per Day?</h6></a>
+        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><h6 style ={titleNameBtm}>Do You Really Need 10,000<br></br> Steps Per Day?</h6></a>
        
                 <p style ={authorName}>by: DANNY KWON JD</p>
              
@@ -184,13 +195,13 @@ function PublicRoute() {
 
     <div className = "descfiveOne">
     <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/the-7-keys-to-a-long-and-healthy-life-exercise/0214317.html"><h6 style ={titleName}>The 7 Keys To A Long And<br></br>Healthy Life: Exercise</h6></a>
+        <a href="https://lifeandhealth.org/fitness/the-7-keys-to-a-long-and-healthy-life-exercise/0214317.html"><h6 style ={titleNameBtm}>The 7 Keys To A Long And<br></br>Healthy Life: Exercise</h6></a>
             <p style ={authorName}>by: WESTNEY WHITE</p>  
         </div>
 
 
         <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><h6 style ={titleName}>5 Ways To Keep Your<br></br> Motivation To Exercise</h6></a>
+        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><h6 style ={titleNameBtm}>5 Ways To Keep Your<br></br> Motivation To Exercise</h6></a>
        
                 <p style ={authorName}>by: WESTNEY WHITE</p>         
     </div>

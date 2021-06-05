@@ -82,7 +82,7 @@ border: black solid 1px;
   background-color:white ;
     overflow: auto;
     white-space: nowrap;
-    width:460px;
+    width:410px;
     height: 700px;
     display: flex;
     flex-direction: column;
