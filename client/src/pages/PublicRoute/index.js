@@ -137,55 +137,17 @@ function PublicRoute() {
 
 <div class="vl"></div>
 
-   
-
-<div className="scrollmenuTwo">
-
-        <div className="desc">
-        <a href="https://lifeandhealth.org/nutrition/morning-coffee-can-impair-blood-sugar-response/1520002.html"><img src="https://lifeandhealth.org/wp-content/uploads/2021/04/shutterstock_236589346-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-        <h6 style ={titleName}>Morning Coffee Can Impair <br></br>Blood Sugar Response</h6>
-            <p style ={authorName}>by: DANNY KWON JD</p>
-          </div> 
-        </div>
-
-
-
-        <div className="desc">
-        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><img src="https://lifeandhealth.org/wp-content/uploads/2021/02/shutterstock_274885196-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6 style ={titleName}>Do You Really Need 10,000<br></br> Steps Per Day?</h6>
-                <p style ={authorName}>by: DANNY KWON JD</p>
-              </div> 
-    </div>
- 
-
-    <div className="desc">
+<div>
+<div className="descFour">
         <a href="https://lifeandhealth.org/lifestyle/how-to-get-better-sleep/1717188.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/09/vladislav-muslakov-CwIU33KGToc-unsplash-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
             <h6 style ={titleName}>How To Get Better Sleep</h6>
                 <p style ={authorName}>by: HARVEY HAHN, MD, FACC</p>
               </div> 
     </div>
+  </div>   
 
 
-    <div className="desc">
-        <a href="https://lifeandhealth.org/fitness/the-7-keys-to-a-long-and-healthy-life-exercise/0214317.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/01/marek-szturc-659613-unsplash-600x600.jpg" alt="magazineCover"></img></a>
-        <div className="infosec">
-            <h6 style ={titleName}>The 7 Keys To A Long And<br></br>Healthy Life: Exercise</h6>
-                <p style ={authorName}>by: WESTNEY WHITE</p>
-              </div> 
-          </div>
-
-
-          <div className="desc">
-            <a href="https://lifeandhealth.org/fitness/5-ways-to-keep-your-motivation-to-exercise/1514065.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/01/rawpixel-1162836-unsplash-600x600.jpg" alt="magazineCover"></img></a> 
-            <div className="infosec">
-                <h6 style ={titleName}>5 Ways To Keep Your<br></br> Motivation To Exercise</h6>
-                    <p style ={authorName}>by: WESTNEY WHITE</p>
-            </div> 
-    </div> 
-    </div>
 
 </> 
 

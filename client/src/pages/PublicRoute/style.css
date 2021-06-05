@@ -122,3 +122,13 @@ border: black solid 1px;
       background-color: #Fffdd0;
     }
   
+.descFour{
+  border: black solid 3px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 7px 7px 3px gray;
+  background-color:white ;
+  width:400px;
+ height:510px;
+}
