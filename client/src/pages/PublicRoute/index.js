@@ -7,13 +7,13 @@ import "./style.css"
 const authorName = {
 fontSize: 10,
 fontWeight: "bold",
-marginLeft:14
-
+marginLeft:14,
+color:"black"
 };
 
 const titleName = {
 fontSize: 16,
-fontWeight:520,
+fontWeight:620,
 display:"flex",
 justifyContent:"center"
 }
@@ -26,7 +26,7 @@ const titleNameTwo = {
 
 const descName = {
   fontSize: 15,
-fontWeight:160,
+fontWeight:360,
 margin:20,
 font:"Helvetica"
 }
@@ -38,7 +38,8 @@ const headerTitle = {
 }
 const rightTitle = {
  color:"teal",
- fontWeight:"bold"
+ fontWeight:"bold",
+ fontSize:25
 }
 const titleNameBtm = {
   fontSize: 16,
@@ -47,6 +48,11 @@ const titleNameBtm = {
   justifyContent:"center",
   color:"black"
   }
+const btmImage ={
+  width: 80,
+  height:80,
+  
+}
 
 
 function PublicRoute() {
@@ -65,7 +71,7 @@ function PublicRoute() {
    <div className="desc">
         <a href="https://lifeandhealth.org/fitness/3-questions-to-ask-yourself-when-setting-a-fitness-goal/1014895.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/03/jeremy-lapak-553145-unsplash-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
-            <h6 style ={titleName}>3 Questions To Ask Yourself When Setting A Fitness Goal</h6>
+            <h6 style ={titleName}>3 Questions To Ask <br/>Yourself When Setting <br/>A Fitness Goal</h6>
                 <p style ={authorName}>by: PATRICK WOOD, ATC, CSCS</p>
               </div> 
     </div>
@@ -175,17 +181,24 @@ function PublicRoute() {
     <div className ="descfiveOne">
 
     <div className="descFive">
-        <a href="https://lifeandhealth.org/nutrition/morning-coffee-can-impair-blood-sugar-response/1520002.html"><h6 style ={titleNameBtm}>Morning Coffee Can Impair <br></br>Blood Sugar Response</h6></a>
-            <p style ={authorName}>by: DANNY KWON JD</p>
+        <a href="https://lifeandhealth.org/nutrition/morning-coffee-can-impair-blood-sugar-response/1520002.html">
+          <h6 style ={titleNameBtm}>Morning Coffee Can Impair Blood Sugar Response</h6> 
+          <p style ={authorName}>by: DANNY KWON JD</p>
+          </a>
+        <img style={btmImage} src="https://lifeandhealth.org/wp-content/uploads/2021/04/shutterstock_236589346-800x600.jpg"/>
+            
           
         </div>
 
 
 
         <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><h6 style ={titleNameBtm}>Do You Really Need 10,000<br></br> Steps Per Day?</h6></a>
-       
-                <p style ={authorName}>by: DANNY KWON JD</p>
+        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html">
+          <h6 style ={titleNameBtm}>Do You Really Need 10,000 Steps Per Day?</h6> 
+        <p style ={authorName}>by: DANNY KWON JD</p>
+        </a>
+       <img style={btmImage} src="https://lifeandhealth.org/wp-content/uploads/2021/02/shutterstock_274885196-800x600.jpg"/>
+                
              
     </div>
     </div>
@@ -195,15 +208,21 @@ function PublicRoute() {
 
     <div className = "descfiveOne">
     <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/the-7-keys-to-a-long-and-healthy-life-exercise/0214317.html"><h6 style ={titleNameBtm}>The 7 Keys To A Long And<br></br>Healthy Life: Exercise</h6></a>
-            <p style ={authorName}>by: WESTNEY WHITE</p>  
+        <a href="https://lifeandhealth.org/fitness/the-7-keys-to-a-long-and-healthy-life-exercise/0214317.html">
+          <h6 style ={titleNameBtm}>The 7 Keys To A Long And Healthy Life: Exercise</h6> 
+          <p style ={authorName}>by: WESTNEY WHITE</p>
+          </a>
+          <img style={btmImage} src="https://lifeandhealth.org/wp-content/uploads/2019/01/marek-szturc-659613-unsplash-800x600.jpg"/>          
         </div>
 
 
         <div className="descFive">
-        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html"><h6 style ={titleNameBtm}>5 Ways To Keep Your<br></br> Motivation To Exercise</h6></a>
-       
-                <p style ={authorName}>by: WESTNEY WHITE</p>         
+        <a href="https://lifeandhealth.org/fitness/do-you-really-need-10000-steps-per-day/1719782.html">
+          <h6 style ={titleNameBtm}>5 Ways To Keep Your Motivation To Exercise</h6>
+          <p style ={authorName}>by: WESTNEY WHITE</p> 
+          </a>
+       <img style ={btmImage} src="https://lifeandhealth.org/wp-content/uploads/2021/02/shutterstock_274885196-800x600.jpg"/>
+                        
     </div>
 
  </div>

@@ -28,7 +28,6 @@ height: 300px;
 
 }
 .desc{
-  border: black solid 3px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -36,14 +35,14 @@ height: 300px;
   background-color:white ;
 }
 .vl {
-  border-top: 3px solid black;
+  border-top: 2px solid black;
   width: 1110px;
   padding-bottom: 20px;
   margin: 20px;
 }
 
 .hl {
-  border-left: 3px solid ;
+  border-left: 2px solid ;
   height: 700px;
   margin: 40px;
 }
@@ -51,7 +50,6 @@ height: 300px;
 .descTwo{
 width: 600px;
 height: 700px;
-border: black solid 1px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -69,14 +67,13 @@ border: black solid 1px;
 
 
 .vLine{
-  border-top: 3px solid black;
+  border-top: 2px solid black;
   width: 200px;
   padding-bottom: 10px;
   margin-left:35px
 }
 
 .scrollmenu {
-  border: black solid 3px;
   border-radius: 10px;
   box-shadow: 7px 7px 3px gray;
   background-color:white ;
@@ -124,7 +121,7 @@ border: black solid 1px;
     }
   
 .descFour{
-  border: black solid 3px;
+ 
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -135,7 +132,7 @@ border: black solid 1px;
 }
 
 .descFive{
-  border: black solid 3px;
+ 
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -143,12 +140,16 @@ border: black solid 1px;
   background-color:white ;
   width: 270px;
   margin: 1px 20px 3px;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .descfiveOne{
   display: flex;
   flex-direction: row;
   padding: 50px;
+  
 }
 
 .bottomLeft{
@@ -157,7 +158,7 @@ flex-direction: column;
 
 }
 .vlFive {
-  border-top: 3px solid black;
+  border-top: 2px solid black;
   width: 750px;
   padding-bottom: 20px;
 }
@@ -168,7 +169,16 @@ flex-direction: row;
 }
 
 .hlBottom{
-  border-left: 3px solid ;
+  border-left: 2px solid ;
   height: 330px;
   margin: 40px;
+}
+
+.descFive:hover {
+  background-color: #Fffdd0;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
 }
