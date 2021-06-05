@@ -27,10 +27,10 @@ function Footer() {
     <p> Copyright © 2021 Kevin Hidalgo. 
     <br/>
     <div className="contactList">
-    <img style={footerImg} src={Ig}/>
-    <img style={footerImg} src={Github}/>
-    <img style={footerImg} src={Twitter}/>
-    <img style={footerImg} src={Email}/>
+   <a href="https://www.instagram.com/"><img style={footerImg} src={Ig}/></a> 
+   <a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 
+    <a href="https://twitter.com"><img style={footerImg} src={Twitter}/></a>
+    <a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg} src={Email}/></a>
     </div>
     </p>
     
