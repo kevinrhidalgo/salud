@@ -24,6 +24,10 @@ fontWeight:160,
 margin: 30,
 font:"Helvetica"
 }
+const headerTitle = {
+  fontSize: 110,
+  fontFamily: "Stint Ultra Condensed, cursive"
+}
 
 
 
@@ -31,7 +35,8 @@ function PublicRoute() {
 
     return (
       <>
-      <h1>Mens Health Magazine</h1>
+      <br/>
+      <h1 style ={headerTitle}>The Weekender</h1>
     <div class="vl"></div>
     <div className="articleSection">   
 
@@ -40,7 +45,7 @@ function PublicRoute() {
    <div className="desc">
         <a href="https://lifeandhealth.org/fitness/3-questions-to-ask-yourself-when-setting-a-fitness-goal/1014895.html"><img src="https://lifeandhealth.org/wp-content/uploads/2019/03/jeremy-lapak-553145-unsplash-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
-            <h6 style ={titleName}>3 Questions To Ask Yourself<br></br>When Setting A Fitness Goal</h6>
+            <h6 style ={titleName}>3 Questions To Ask Yourself When Setting A Fitness Goal</h6>
                 <p style ={authorName}>by: PATRICK WOOD, ATC, CSCS</p>
               </div> 
     </div>
@@ -48,7 +53,7 @@ function PublicRoute() {
     <div className="desc">
         <a href="https://lifeandhealth.org/lifestyle/the-truth-about-burning-and-storing-fat/08406.html"><img src="https://lifeandhealth.org/wp-content/uploads/2018/12/vera-cho-789594-unsplash-600x600.jpg" alt="magazineCover"></img></a>
         <div className="infosec">
-            <h6 style ={titleName}>The Truth About Burning<br></br> And Storing Fat</h6>
+            <h6 style ={titleName}>The Truth About Burning <br/> And Storing Fat</h6>
                 <p style ={authorName}> by: DICK NUNEZ FT</p>
               </div> 
     </div>
@@ -71,7 +76,7 @@ function PublicRoute() {
     <div className="scrollmenu">
  
      <div className="descThree">
-           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleName}>What’s The Big Deal About Protein?</h6></a> 
+           <a href="https://lifeandhealth.org/nutrition/whats-the-big-deal-about-protein/1611935.html"><h6 style ={titleName}>What’s The Big Deal About <br/> Protein?</h6></a> 
                 <p style ={authorName}>by: RAEANN LEAL</p>
              </div>
 
@@ -84,7 +89,7 @@ function PublicRoute() {
 <div class="vLine"></div>
 
             <div className="descThree">
-        <a href="https://lifeandhealth.org/nutrition/the-surprising-connection-between-diet-and-alzheimers-disease/0911063.html"><h6 style ={titleName}>What’s The Connection Between <br></br>Diet And Alzheimer’s Disease?</h6></a>
+        <a href="https://lifeandhealth.org/nutrition/the-surprising-connection-between-diet-and-alzheimers-disease/0911063.html"><h6 style ={titleName}>What’s The Connection <br/>Between Diet And Alzheimer’s <br/> Disease?</h6></a>
                 <p style ={authorName}>by: RAEANN LEAL</p>   
             </div>
 
@@ -115,7 +120,7 @@ function PublicRoute() {
 <div class="vLine"></div>
 
             <div className="descThree">
-            <a href="https://lifeandhealth.org/food/why-plant-based/an-interview-with-a-plant-based-doctor-and-autoimmune-disease-cookbook-author/0815050.html"><h6 style ={titleName}>We Sit Down With Plant-Based <br></br>Doctor And Autoimmune Disease <br></br>Cookbook Author, Dr. Joyce Choe</h6></a>
+            <a href="https://lifeandhealth.org/food/why-plant-based/an-interview-with-a-plant-based-doctor-and-autoimmune-disease-cookbook-author/0815050.html"><h6 style ={titleName}>We Sit Down With Plant-Based <br/> Doctor And Autoimmune <br/> Disease Cookbook Author, <br/> Dr. Joyce Choe</h6></a>
                   <p style ={authorName}>by: GRACE JAUWENA</p>   
             </div>  
    </div> 
