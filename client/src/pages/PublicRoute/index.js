@@ -25,7 +25,7 @@ margin: 30,
 font:"Helvetica"
 }
 const headerTitle = {
-  fontSize: 110,
+  fontSize: 90,
   fontFamily: "Stint Ultra Condensed, cursive",
   fontWeight:"bold"
 }
@@ -36,7 +36,7 @@ function PublicRoute() {
 
     return (
       <>
-      <br/>
+    
       <h1 style ={headerTitle}>The Weekender</h1>
 
     <div class="vl"></div>

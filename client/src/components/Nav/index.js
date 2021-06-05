@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 // import Login from "../LoginForm";
 import AuthButton from "../AuthButton";
 import { UserContext } from "../../utils/UserContext";
+import saludLogo from "./saludLogo.jpg"
 
 
 
@@ -15,8 +16,8 @@ const buttonStyle1 = {
 };
 
 const headerName ={
-  fontSize:"60px",
-  color:"black",
+  width:350,
+  height:200,
   marginLeft:80
 }
 
@@ -64,7 +65,7 @@ function Nav() {
         </ul>
        
         <Link className="navbar-brand" to="/home">
-     <div style={headerName}>Salud.</div> 
+     <div ><img style={headerName} src= {saludLogo}/></div> 
         </Link>
 
         <ul className="navbar-nav ml-auto ">
