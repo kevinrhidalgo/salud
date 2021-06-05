@@ -1,6 +1,6 @@
 import React from "react";
 import "../Footer/Footer.css";
-import myLogo from "./logo.PNG"
+
 import Ig from "./ig.PNG"
 import Github from "./github.PNG"
 import Twitter from "./twitter.PNG"
