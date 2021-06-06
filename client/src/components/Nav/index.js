@@ -12,13 +12,15 @@ import saludLogo from "./saludLogo.jpg"
 const buttonStyle1 = {
   marginRight: 10, 
   color:"#222222",
-  fontSize: "18px"
+  fontSize: "31px",
+  fontWeight: 100,
+  fontFamily: "Stint Ultra Condensed, cursive"
 };
 
 const headerName ={
   width:350,
   height:200,
-  marginLeft:80
+  marginLeft:180
 }
 
 
