@@ -12,3 +12,10 @@
     background-color:coral;
     padding: 20px 10px 10px;
 }
+
+.postSection{
+    background-color:coral ;
+    display: flex;
+    justify-content: center;
+    margin:200px;
+}

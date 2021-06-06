@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import CreateNewPost from "../../components/CreateNewPost/CreateNewPost";
 import Post from "../../components/AllPost/Post";
 import ModifyPost from "../../components/EditPost/ModifyPost"
-import bgImg from "./bgimg.jpg"
+
 import "./routeTwo.css"
 
 
@@ -88,7 +88,7 @@ function PublicRouteTwo () {
   if (isCreateNewPost) {
     return (
       <>
-      
+      <div className="postSection">
         <CreateNewPost
           savePostTitleToState={savePostTitleToState}
           savePostContentToState={savePostContentToState}
@@ -97,7 +97,7 @@ function PublicRouteTwo () {
           savePost={savePost}
           deletePost={deletePost}
         />
-        
+        </div>
       </>
     );
   }
@@ -127,10 +127,7 @@ function PublicRouteTwo () {
       <p style={paragraphOne}>Real stories from real life changing experiences</p>
       </div>
       
-        <img
-          
-          src={bgImg}
-        />
+       
       
       {!allPosts.length ? (
         <section className="no-post">
