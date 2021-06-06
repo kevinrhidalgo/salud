@@ -12,8 +12,8 @@ import saludLogo from "./saludLogo.jpg"
 const buttonStyle1 = {
   marginRight: 10, 
   color:"#222222",
-  fontSize: "31px",
-  fontWeight: 100,
+  fontSize: "29px",
+  fontWeight: 600,
   fontFamily: "Stint Ultra Condensed, cursive"
 };
 
