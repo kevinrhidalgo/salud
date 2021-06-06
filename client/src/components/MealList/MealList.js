@@ -5,8 +5,15 @@ import "./index.css";
 const macrosList={
   boxShadow: "7px 7px 3px gray",
   backgroundColor: "white" 
-  
 }
+const macrosHeader={
+  boxShadow: "7px 7px 3px gray",
+  backgroundColor: "white",
+  fontFamily: "Song Myung, serif",
+ marginLeft:190,
+ marginRight:190
+}
+  
 
 export default function MealList({ mealData }) {
   const nutrients = mealData.nutrients;
@@ -14,7 +21,7 @@ export default function MealList({ mealData }) {
   return (
     <main>
       <section className="nutrients">
-        <h1>Macros</h1>
+        <h1 style={macrosHeader}>|Macros|</h1>
         <ul style={macrosList}>
           <li>Calories: {nutrients.calories.toFixed(0)}</li>|
           <li>Carbohydrates: {nutrients.carbohydrates.toFixed(0)}</li>|
