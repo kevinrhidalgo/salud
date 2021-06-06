@@ -9,13 +9,13 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const flash = require('connect-flash');
 const routes = require('./routes/index');
-/* === Set the PORT to work with deployment environment === */
+// Set the PORT to work with deployment environment 
 const PORT = process.env.PORT || 3001;
-/* === Call Express as app === */
+
 const app = express();
 
 
-/* === Middleware === */
+// Middleware
 app.use(logger('dev'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -31,35 +31,35 @@ app.use(passport.initialize());
 app.use(flash());
 
 
-/* Serve up static assets (usually on heroku) */
+// Serve up static assets (usually on heroku) 
 if (process.env.NODE_ENV === "production") {
   app.use(passport.session()); app.use(express.static(path.join(__dirname, './client/build')));
 
 };
 
-/* === Routing === */
+// Routing 
 
 app.use(routes);
 
-/* === Express 404 error handler === */
+// Express 404 error handler
 app.use(function (req, res, next) {
   var err = new Error('404 in Server.js, route Not Found');
   err.status = 404;
   next(err);
 });
 
-/* === Server-Side Authentication w/passport.js on our Model === */
+//Server-Side Authentication w/passport.js on our Model 
 const Account = require('./models/account');
 passport.use(new LocalStrategy(Account.authenticate()));
 passport.serializeUser(Account.serializeUser());
 passport.deserializeUser(Account.deserializeUser());
 
-/* === Mongoose Connection === */
+// Mongoose Connection 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mern_authenticate_me', { useNewUrlParser: true, useUnifiedTopology: true });
 
-/* === Error Handling === */
 
-/* Development error handler will print stacktrace */
+
+// Development error handler will print stacktrace
 if (app.get('env') === 'development') {
   app.use(function (err, req, res, next) {
     res.status(err.status || 500);
@@ -70,7 +70,7 @@ if (app.get('env') === 'development') {
   });
 }
 
-/* Production error handler no stacktraces leaked to user */
+// Production error handler no stacktraces leaked to user 
 app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.json({
@@ -80,7 +80,7 @@ app.use(function (err, req, res, next) {
 });
 
 
-/* === Telling Express to Listen === */
+//  Telling Express to Listen 
 app.listen(PORT, function () {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });

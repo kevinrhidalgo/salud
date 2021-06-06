@@ -6,11 +6,20 @@ import { UserContext } from "../../utils/UserContext";
 import Header from '../../components/Header'
 import Body from '../../components/Body'
 
+const calendarLook={
+    backgroundColor:"red",
+    
+}
+
 const Wrapper = styled.section`
-width:450px;
-height:300px;
-background-color:white;
+width:350px;
+height:250px;
+background-color:#f4f0db;
+box-shadow: 10px 10px 5px grey;
+color:black;
+margin-bottom:120px;
 `;
+
 
 function ProtectedRoute() {
 	const [user, dispatch] = useContext(UserContext)
@@ -44,13 +53,13 @@ function ProtectedRoute() {
         <>
         <Header />
 <Body />
-        <Wrapper>
-      <Calendar
+        <Wrapper >
+      <Calendar 
         onChange={onChange}
         value={value}
       />
     </Wrapper>
-		<div className = "weeklyPlaner">
+		<div className = "weeklyPlanner">
      <div className = "planTitle"> <h1>WEEKLY MEAL PLANNER</h1> </div>
      <div className = "firstThree">
          <div className="weeklyDay"><h3>Monday</h3>

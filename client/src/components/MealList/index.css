@@ -24,15 +24,30 @@ input {
 button {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: #222222;
-  color: #f3f3f3;
+  background-color: white;
+  color:black;
   border: none;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  box-shadow: 10px 10px 5px grey;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+.weeklyPlanner{
+ 
+  padding:100px;
+  width: 1100px;
+  box-shadow: 10px 10px 5px grey;
+  background: linear-gradient(
+    to right, 
+    #556b2f  0%, 
+    #bab86c  50%, 
+    #fffaf1 50%, 
+    #fffaf1  100%
+  );
 }
 
 main {
