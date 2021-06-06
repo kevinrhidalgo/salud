@@ -61,6 +61,7 @@ h1 {
 img {
   width: 100%;
   margin-bottom: 1rem;
+
   
 }
 
@@ -72,6 +73,7 @@ article {
   max-width: 300px;
   box-shadow: 7px 7px 3px gray;
   background-color: white ;
+  
 }
 
 ul {
@@ -81,6 +83,10 @@ ul {
 .instructions {
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  font-weight: bold;
+  font-size:15px;
+   padding:10px;
+   border:1px solid navy;
 }
 
 a {

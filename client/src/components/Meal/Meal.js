@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from "react";
+
+
+
+const foodLink={
+  color:"teal"
+}
+
+
 export default function Meal({ meal }) {
   const [imageUrl, setImageUrl] = useState("");
+
+
 
   useEffect(() => {
     fetch(
@@ -24,7 +34,7 @@ export default function Meal({ meal }) {
         <li>Number of servings: {meal.servings}</li>
       </ul>
 
-      <a href={meal.sourceUrl}>Go to Recipe</a>
+      <a style={foodLink} href={meal.sourceUrl}>Go to Recipe</a>
     </article>
   );
 }
