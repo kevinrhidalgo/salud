@@ -41,5 +41,7 @@ export default function Meal({ meal }) {
 
       <a style={foodLink} href={meal.sourceUrl}>Go to Recipe</a>
     </article>
+   
+
   );
 }
