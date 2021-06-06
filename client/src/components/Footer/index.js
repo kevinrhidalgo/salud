@@ -11,6 +11,13 @@ border: "black solid 1px",
 width: 40,
 height: 50
 }
+const projTitle={
+  color:"black",
+  fontFamily: "Stint Ultra Condensed, cursive",
+  fontWeight:50,
+  fontSize:45,
+  paddingLeft:50
+}
 
 
 function Footer() {
@@ -21,9 +28,10 @@ function Footer() {
     <br/>
     <br/>
     <br/>
-
+    
     <footer>     
-
+    <h1 style={projTitle}>Salud.</h1>
+   
     <p> Copyright © 2021 Kevin Hidalgo. 
     <br/>
     <div className="contactList">
