@@ -3,8 +3,13 @@ import Card from "../Card"
 
 const styles = {
 	card: {
-	  margin: 200,
-	  color:"#445626"
+		width:"400px",
+		color:"#445626",
+		boxShadow: "10px 10px 5px grey",
+		position: "relative",
+	top: "50%",
+	left: "50%",
+	transform: "translate(-50%, 20%)"
 	}
 };	
 
