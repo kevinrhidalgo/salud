@@ -3,7 +3,23 @@ import CreateNewPost from "../../components/CreateNewPost/CreateNewPost";
 import Post from "../../components/AllPost/Post";
 import ModifyPost from "../../components/EditPost/ModifyPost"
 import bgImg from "./bgimg.jpg"
+import "./routeTwo.css"
 
+
+const routeHead={
+fontSize:130,
+fontFamily: "Limelight, cursive",
+color:"#bab86c",
+lineHeight: 0.7,
+}
+
+const paragraphOne={
+  display:"flex",
+  justifyContent:"center",
+  color:"beige",
+  fontWeight:350,
+  fontSize:20,
+}
 
 
 function PublicRouteTwo () {
@@ -72,6 +88,7 @@ function PublicRouteTwo () {
   if (isCreateNewPost) {
     return (
       <>
+      
         <CreateNewPost
           savePostTitleToState={savePostTitleToState}
           savePostContentToState={savePostContentToState}
@@ -80,6 +97,7 @@ function PublicRouteTwo () {
           savePost={savePost}
           deletePost={deletePost}
         />
+        
       </>
     );
   }
@@ -88,6 +106,7 @@ function PublicRouteTwo () {
       return post.id === editPostId;
     });
     return (
+      
       <ModifyPost
         title={post.title}
         content={post.content}
@@ -95,17 +114,24 @@ function PublicRouteTwo () {
         savePostTitleToState={savePostTitleToState}
         savePostContentToState={savePostContentToState}
       />
+
     );
   }
+
+
   return (
-    <>
-      <div className="bgImg">
-      <h1>Voices <br/> from you!</h1>
+    <div className="voices">
+      <div className="bgColor">
+      <h1 style={routeHead}>Voices <br/> <div className="middleName">from the</div>People
+      </h1>
+      <p style={paragraphOne}>Real stories from real life changing experiences</p>
+      </div>
+      
         <img
           
           src={bgImg}
         />
-      </div>
+      
       {!allPosts.length ? (
         <section className="no-post">
           <h1>No Post Found!</h1>
@@ -120,6 +146,7 @@ function PublicRouteTwo () {
         <section className="all-post">
         {allPosts.map(eachPost => {
           return (
+            <div className="blogPost">
             <Post
               id={eachPost.id}
               key={eachPost.id}
@@ -128,6 +155,7 @@ function PublicRouteTwo () {
               editPost={editPost}
               deletePost={deletePost}
             />
+            </div>
           );
         })}
       <section className="button-wrapper">
@@ -139,7 +167,7 @@ function PublicRouteTwo () {
       )}
 
       
-    </>
+    </div>
   );
 };
 export default PublicRouteTwo;

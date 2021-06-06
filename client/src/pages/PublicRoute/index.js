@@ -58,7 +58,7 @@ const btmImage ={
 function PublicRoute() {
 
     return (
-      <>
+      <div className="home">
     
       <h1 style ={headerTitle}>The Weekender</h1>
 
@@ -230,7 +230,7 @@ function PublicRoute() {
     
   </div>   
 
-</> 
+</div> 
 
     )
 }
