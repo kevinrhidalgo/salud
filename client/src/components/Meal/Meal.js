@@ -7,7 +7,8 @@ const foodLink={
 }
 const foodHeader={
   color:"black",
-  fontSize:30
+  fontSize:30,
+  fontFamily: "Song Myung, serif"
 }
 
 
