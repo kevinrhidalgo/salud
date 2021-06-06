@@ -5,6 +5,10 @@ import React, { useState, useEffect } from "react";
 const foodLink={
   color:"teal"
 }
+const foodHeader={
+  color:"black",
+  fontSize:30
+}
 
 
 export default function Meal({ meal }) {
@@ -27,7 +31,7 @@ export default function Meal({ meal }) {
 
   return (
     <article>
-      <h1>{meal.title}</h1>
+      <h1 style={foodHeader}>{meal.title}</h1>
       <img src={imageUrl} alt="recipe" />
       <ul className="instructions">
         <li>Preparation time: {meal.readyInMinutes} minutes</li>
