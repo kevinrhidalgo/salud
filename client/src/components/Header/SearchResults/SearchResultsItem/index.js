@@ -8,14 +8,14 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 const styles = theme => ({
   container: {
-    width: '100%',
+    width: '200px',
+    width:'100px',
     display: 'flex',
     padding: 0,
-    
   },
   icon: {
-    width: '45px',
-    height: '45px',
+    width: '35px',
+    height: '35px',
     margin: '10px 15px 10px 10px',
     borderRadius: '10px',
     
@@ -31,7 +31,7 @@ const styles = theme => ({
     textTransform: 'capitalize',
     "&:last-child": {
       padding: '0 10px 0 0',
-      
+ 
     },
   },
 });
