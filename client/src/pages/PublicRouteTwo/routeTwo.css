@@ -5,7 +5,10 @@
 
 
 .blogPost{
-    background-color:red ;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    margin:200px;
 }
 
 .bgColor{
