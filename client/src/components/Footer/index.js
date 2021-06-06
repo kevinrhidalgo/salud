@@ -12,7 +12,7 @@ width: 40,
 height: 50
 }
 const projTitle={
-  color:"black",
+  color:"#222222",
   fontFamily: "Stint Ultra Condensed, cursive",
   fontWeight:50,
   fontSize:45,

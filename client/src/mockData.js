@@ -1,23 +1,4 @@
-//1. There are 3 days' worth of data points here:
-//   Today: 
-//       You will leave today empty so users can insert any new data.
-//   Yesterday and the day before: 
-//       They are read only data given to you so your webapp can demonstrate the ability to cycle through history.
-//
-//2. Be aware that common food doen't have "nix_item_id", only branded food has it.
-//  Common data requires a initial call to get a list and further details requires an extra call.
-//  In order to get the details, depending on the food is branded or not, the API endpoints are different.
-//  You will gather these different fileds from Nutritionix API to contruct our data points.
-//
-//3. Understanding the food calorie calculation
-//  Take "chicken salad" for example:
-//      "serving_qty": 0.5,
-//      "serving_unit": "cup",
-//      "serving_weight_grams": 112.1,
-//      "nf_calories": 253.99,
-//      "serving_size" : 1,
-//  That translates into:
-//      Two serves of Chicken Salad 0.5 cup, which is 1 cup. Rounding to integer is 224 grams and 508 calories.
+
 
 export const MOCK_DATA = {
     first_name: 'Jane',

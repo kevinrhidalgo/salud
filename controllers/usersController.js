@@ -5,7 +5,7 @@ module.exports = {
 	getUser: function (req, res) {
 
 		const { user } = req.session.passport
-
+//conditional statement, if signed in render data that is within those login pages
 		if (user) {
 			Account.findOne({ username: user })
 				.then(userData => {

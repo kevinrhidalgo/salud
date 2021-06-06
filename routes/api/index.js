@@ -2,7 +2,7 @@ const path = require("path");
 const router = require("express").Router();
 const userRoutes = require("./users");
 
-//User Routes
+//this is the User Routes
 router.use("/users", userRoutes);
 // For anything else, render the html page
 router.use(function(req, res) {

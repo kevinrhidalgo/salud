@@ -34,7 +34,7 @@ font:"Helvetica"
 const headerTitle = {
   fontSize: 90,
   fontFamily: "Stint Ultra Condensed, cursive",
-  fontWeight:"bold"
+  fontWeight:150
 }
 const rightTitle = {
  color:"teal",
@@ -227,6 +227,8 @@ function PublicRoute() {
 
  </div>
  <div class="vlFive"></div>
+ <h1>Video of the Week</h1>
+
  </div>
     
   </div>   
@@ -238,3 +240,4 @@ function PublicRoute() {
 
 
 export default PublicRoute
+

@@ -11,7 +11,7 @@ router.route("/register")
 
 router.route("/login")
 
-//Added this to redirect to the login 
+//this should redirect to the login 
 .post(passport.authenticate('local', { failureRedirect: '/login' }),usersController.login);
 //Changed to post route to match the request
 

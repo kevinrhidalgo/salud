@@ -27,6 +27,9 @@ const StyledDivSearchBar = styled.div`
   align-items: center;
   margin: 10px;
 `
+const searchFoods={
+  boxShadow: "7px 7px 3px gray"
+}
 
 class Searchbar extends Component {
   constructor(props) {
@@ -81,11 +84,11 @@ class Searchbar extends Component {
           style={cover ? {backgroundColor: 'rgba(0,0,0,0.25)'} : {}}
           onClick={() => {if (cover === true) { setSearchDefocus() }}}
         >
-          <StyledDivSearchBar>
+          <StyledDivSearchBar style={searchFoods}>
             <div style={{ margin: '0 5px 0 0'}}>
-              <SearchIcon color="secondary" style={{margin: '10px'}}  />
+              <SearchIcon color="warning" style={{margin: '10px'}}  />
             </div>
-            <InputBase
+            <InputBase 
               inputRef={this.searchBarRef}
               placeholder="Search foods…"
               inputProps={{ 'aria-label': 'search' }}
