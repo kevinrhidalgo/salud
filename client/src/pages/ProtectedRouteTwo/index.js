@@ -6,9 +6,11 @@ import { UserContext } from "../../utils/UserContext";
 import Header from '../../components/Header'
 import Body from '../../components/Body'
 
-const calendarLook={
-    backgroundColor:"red",
-    
+const plannerTop={
+   fontSize:"80px",
+   fontFamily:"Stint Ultra Condensed, cursive",
+   boxShadow: "10px 8px 5px grey",
+   fontWeight: 550
 }
 
 const Wrapper = styled.section`
@@ -60,7 +62,7 @@ function ProtectedRoute() {
       />
     </Wrapper>
 		<div className = "weeklyPlanner">
-     <div className = "planTitle"> <h1>WEEKLY MEAL PLANNER</h1> </div>
+      <h1 style={plannerTop}>WEEKLY MEAL <br/>PLANNER</h1>
      <div className = "firstThree">
          <div className="weeklyDay"><h3>Monday</h3>
           <textarea className="textArea" type="text" name="Name" placeholder = "Breakfast:" /> 
