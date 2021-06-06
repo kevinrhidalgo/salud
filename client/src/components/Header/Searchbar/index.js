@@ -26,9 +26,11 @@ const StyledDivSearchBar = styled.div`
   border-radius: 5px;
   align-items: center;
   margin: 10px;
+  
 `
 const searchFoods={
-  boxShadow: "7px 7px 3px gray"
+  boxShadow: "7px 7px 3px gray",
+  
 }
 
 class Searchbar extends Component {

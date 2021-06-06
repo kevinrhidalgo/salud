@@ -7,11 +7,12 @@ import AddIcon from '@material-ui/icons/Add';
 
 const styles = theme => ({
   fab: {
-    position: 'fixed',
+   
     bottom: 0,
     right: 0,
     margin: '20px',
     zIndex: 0,
+    backgroundColor:"teal"
   },
   extendedIcon: {
     margin: '10px',

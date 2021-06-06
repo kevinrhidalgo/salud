@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
+
+
 const styles = theme => ({
   container: {
     width: '100%',
@@ -12,13 +14,18 @@ const styles = theme => ({
     flexDirection: 'row',
     flexWrap: 'nowrap',
     justifyContent: 'space-between',
+    
+    
   },
   cells: {
+  
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'start',
     "&:last-child": {
       textAlign: 'end',
+      
+
     }
   },
 });
@@ -26,12 +33,12 @@ const styles = theme => ({
 function StatsSummary(props) {
   const { classes, goal, sum } = props;
   return(
-    <div className={classes.container}>
+    <div  className={classes.container}>
       <div className={classes.cells}>
-        <Typography variant="h5" component="h5">{ sum.toFixed(0) } cal</Typography>
-        <Typography variant="body2" component="p" style={{ color: 'grey'}}>consumed</Typography>
+        <Typography  variant="h5" component="h5">{ sum.toFixed(0) } cal</Typography>
+        <Typography  variant="body2" component="p" style={{ color: 'grey'}}>consumed</Typography>
       </div>
-      <div className={classes.cells}>
+      <div  className={classes.cells}>
         <Typography variant="h5" component="h5">{ goal } cal</Typography>
         <Typography variant="body2" component="p" style={{ color: 'grey'}}>daily goal</Typography>
       </div>

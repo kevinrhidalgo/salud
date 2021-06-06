@@ -227,7 +227,6 @@ function PublicRoute() {
 
  </div>
  <div class="vlFive"></div>
- <h1>Video of the Week</h1>
 
  </div>
     

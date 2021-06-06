@@ -9,13 +9,16 @@ import NativeSelect from '@material-ui/core/NativeSelect';
 const styles = theme => ({
   container: {
     padding: '10px 0',
+    
   },
   menuTitle: {
     fontWeight: '400',
     color: 'grey',
+    
   },
   form: {
     width: '100%',
+    
   },
   input: {
     width: '100%',

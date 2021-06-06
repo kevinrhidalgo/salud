@@ -11,6 +11,7 @@ const styles = theme => ({
     margin: '10px 0',
     display: 'flex',
     flexDirection: 'column',
+    
   },
   loadingBar: {
     width: '100%',

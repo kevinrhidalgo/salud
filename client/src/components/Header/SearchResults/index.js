@@ -14,11 +14,13 @@ const styles = theme => ({
     height: 'calc(100vh - 70px)',
     position: 'absolute',
     top: '70px',
+    
   },
   background: {
     width: '100vw',
     height: 'calc(100vh - 70px)',
     position: 'absolute',
+    
   },
   paper: {
     width: 'calc(100% - 20px)',
@@ -26,13 +28,16 @@ const styles = theme => ({
     maxHeight: 'calc(100% - 10px)',
     margin: '0 auto',
     overflowY: 'scroll',
+    
   },
   root: {
     paddingBottom: 0,
+    
   },
   ul: {
     padding: 0,
     backgroundColor: '#FFFFFF',
+    
   },
   headings: {
     textTransform: 'uppercase',

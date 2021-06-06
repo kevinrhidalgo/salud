@@ -11,7 +11,8 @@ const styles = theme => ({
     height: '20px',
     color: theme.palette.primary.main,
     [theme.breakpoints.up('md')]: {
-      color: 'white',
+      color: 'teal',
+    
     },
   },
 });

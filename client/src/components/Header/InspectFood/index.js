@@ -22,6 +22,7 @@ const DivContainer = styled.div`
   width: 100vw;
   height: 100vh;
   z-index: 15;
+  
 `;
 
 const BackgroundContainer = styled.div`
@@ -32,6 +33,7 @@ const BackgroundContainer = styled.div`
   height: 100vh;
   z-index: -1;
   background-color: rgba(0,0,0,0.25);
+
 `
 
 const StyledPaper = styled(Paper)`
@@ -39,6 +41,7 @@ const StyledPaper = styled(Paper)`
   max-width: 350px;
   margin: 10px;
   padding: 20px;
+  
 `;
 
 const StyledDivLoader = styled.div`
@@ -47,10 +50,12 @@ const StyledDivLoader = styled.div`
   align-items: center;
   width: 100%;
   padding: 10px;
+  
 `
 
 const StyledDivider = styled(Divider)`
   margin: 5px 10px;
+  
 `
 
 const StyledButtonContainer = styled.div`

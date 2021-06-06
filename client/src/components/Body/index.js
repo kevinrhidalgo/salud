@@ -15,6 +15,7 @@ const styles = theme => ({
       flexDirection: 'row',
       flexWrap: 'nowrap',
       flexGrow: 1,
+      
     }
   },
 });

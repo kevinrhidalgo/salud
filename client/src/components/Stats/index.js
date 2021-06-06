@@ -21,6 +21,7 @@ const DivContainer = styled.div`
     width: 100%;
     background-color: #f5f5f5;
     flex-grow: 1;
+    
   }
 `;
 

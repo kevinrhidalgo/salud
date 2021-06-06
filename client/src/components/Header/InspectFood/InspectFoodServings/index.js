@@ -13,14 +13,17 @@ const styles = theme => ({
     flexDirection: 'nowrap',
     justifyContent: 'space-between',
     alignItems: 'top' ,
+    
   },
   textField: {
     width: '40%',
     margin: 0,
+
   },
   statsContainer: {
     "&:last-child": {
       textAlign: 'end',
+    
     }
   }
   

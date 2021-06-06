@@ -12,23 +12,38 @@ const styles = theme => ({
     width: '100%',
     display: 'flex',
     padding: 0,
+    backgroundColor:"white",
+    boxShadow: "7px 7px 3px gray",
+    color:"teal",
+    marginLeft:160,
+    width:"540px",
+    height:"80px",
+    padding:"10px"
+
+  
   },
   icon: {
     width: '45px',
     height: '45px',
     margin: '10px 15px 10px 10px',
     borderRadius: '10px',
+    
+    
   },
   textContainer: {
+
     display: 'flex',
     padding: '5px 0',
     flexGrow: 1,
     borderBottom: '1px solid grey',
+    
+
   },
   listItemText: {
     "&:last-child": {
       padding: '0 10px 0 0',
       textAlign: 'end',
+      
     },
   },
   textCapitalize: {

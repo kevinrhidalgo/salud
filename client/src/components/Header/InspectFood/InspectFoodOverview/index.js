@@ -9,6 +9,7 @@ import CloseIcon from '@material-ui/icons/Close';
 const styles = theme => ({
   container: {
     padding: '10px 0',
+    
   },
   imageWrapper: {
     display: 'flex',
@@ -18,6 +19,7 @@ const styles = theme => ({
   thumbnailIcon: {
     width: '75px',
     height: '75px',
+
   },
 });
 

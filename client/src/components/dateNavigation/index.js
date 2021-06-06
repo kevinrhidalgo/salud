@@ -21,8 +21,12 @@ const DivContainer = styled.div`
   @media(min-width: 960px){
     max-width: 450px;
     margin: 10px 0;
+    
   }
 `
+const nuCounter={
+  color:"teal"
+}
 
 class DateNavigation extends Component {
   
@@ -52,17 +56,17 @@ class DateNavigation extends Component {
     }
 
     return (
-      <DivContainer>
+      <DivContainer style={nuCounter}>
         <NavButton direction="back" index={dateIndex} noOfDays={metaData.data_points.length} eventOnClick={changeDate} />
         
-        <Hidden mdUp>
-          <Typography variant="h5" component="h5">{ dateFormat }</Typography>
+        <Hidden mdUp style={nuCounter}>
+          <Typography  variant="h5" component="h5">{ dateFormat }</Typography>
         </Hidden>
         <Hidden smDown>
-          <Typography variant="h4" component="h4">{ dateFormat }</Typography>
+          <Typography  variant="h4" component="h4">{ dateFormat }</Typography>
         </Hidden>
 
-        <NavButton direction="forwards" index={dateIndex} noOfDays={metaData.data_points.length} eventOnClick={changeDate} />
+        <NavButton   direction="forwards" index={dateIndex} noOfDays={metaData.data_points.length} eventOnClick={changeDate} />
       </DivContainer>
     )
   }

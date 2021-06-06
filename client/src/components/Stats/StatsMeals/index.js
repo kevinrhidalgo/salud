@@ -12,14 +12,17 @@ const styles = theme => ({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between'
+    
   },
   cells: {
     width: (100 / MEAL_CATEGORY.length).toString() + "%",
     textAlign: 'center',
+    
   },
   mealCategory: {
     textTransform: 'capitalize',
     color: 'grey',
+    
   }
 });
 
