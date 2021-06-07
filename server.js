@@ -55,7 +55,15 @@ passport.serializeUser(Account.serializeUser());
 passport.deserializeUser(Account.deserializeUser());
 
 // Mongoose Connection 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mern_authenticate_me', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/projectdb',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  },
+);
 
 
 
