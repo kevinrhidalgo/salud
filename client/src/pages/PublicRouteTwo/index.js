@@ -164,7 +164,7 @@ I have now been vegan for 2 and a half years and honestly believe it’s the bes
          </div>
             
           <section className="button-wrapper">
-      <button onClick={toggleCreateNewPost} className="button">Create New</button>
+      <button onClick={toggleCreateNewPost} className="button">Create New </button>
       </section>
         </section>
       ) : (
@@ -185,7 +185,7 @@ I have now been vegan for 2 and a half years and honestly believe it’s the bes
           );
         })}
       <section className="button-wrapper">
-      <button onClick={toggleCreateNewPost} className="button">Create New</button>
+      <button onClick={toggleCreateNewPost} className="button">Create New </button>
       </section>
         </section>
         
