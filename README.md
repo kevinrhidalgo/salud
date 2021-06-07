@@ -22,7 +22,7 @@ https://saludproj.herokuapp.com/
 ## WireFrame Link
 https://docs.google.com/presentation/d/1oK3J6VJMgnx9R0EQhHlNcnababVQjXc0bzqMiVEbV2c/edit?usp=sharing
 
-  # Mapped out Checklist
+
   # Installation
   To run the installation, use the following code:
   npm i, followed by npm start or node server.js
