@@ -40,7 +40,7 @@
     
 }
 .profileOne{
-    background: linear-gradient(90deg, beige 50%, #ffed4b 50%);
+    background: linear-gradient(90deg, beige 50%, #ffffb7 50%);
    display: flex;
    flex-direction: row;
    width:800px;
@@ -66,4 +66,13 @@ font-weight:100px ;
     border-left: 1px solid gray ;
     height: 210px;
     margin: 30px;   
+}
+
+.threeCards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+}
+.personCard{
+    background-color:red ;
 }

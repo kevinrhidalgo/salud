@@ -4,6 +4,10 @@ import Post from "../../components/AllPost/Post";
 import ModifyPost from "../../components/EditPost/ModifyPost"
 import "./routeTwo.css"
 import image1 from "./person1.jpeg"
+import image2 from "./person2.jpeg"
+import image3 from "./person3.jpeg"
+import image4 from "./person4.jpeg"
+
 
 const routeHead={
 fontSize:130,
@@ -149,7 +153,7 @@ function PublicRouteTwo () {
      <img style={profileOne} src={image1}/>
      <h3 >How going vegan changed my life.</h3>
     </div>
-    <div className="partOne"><h3 style={personName}>John Stewart</h3>
+    <div className="partOne"><h3 style={personName}>Peter Stevens</h3>
     <h6>February, 26 2021</h6>
     </div>
 
@@ -162,6 +166,28 @@ After eating meat for 19 years of my life and with steak being my favourite food
 I have now been vegan for 2 and a half years and honestly believe it’s the best decision I’ve ever made. Before this change I was anaemic for a couple of years, not badly, but enough for me to feel tired and drained most of the time. Although going vegetarian didn’t change that, going vegan did. My eyes were opened to things I had never eaten before, making me care about my food and where it came from. I no longer felt guilty about what I was eating.</p>
 </div>
          </div>
+        <div className="threeCards">
+<div className="personCard1">
+  <img style={profileOne} src={image2}/>
+  <h3 style={personName}>Cynthia Reyes</h3>
+  <h6>June, 11 2019</h6>
+  <h3 >Working out 1 day at a time.</h3>
+</div>
+
+<div className="personCard2">
+<img style={profileOne} src={image3}/>
+<h3 style={personName}>Stewart Reynolds</h3>
+<h6>September, 13 2020</h6>
+<h3>Change is for the best.</h3>
+</div>
+
+<div className="personCard3">
+<img style={profileOne} src={image4}/>
+<h3 style={personName}>Cameron James</h3>
+<h6>March, 16 2019</h6>
+<h3>No regrets since that day.</h3>
+</div>
+        </div>
             
           <section className="button-wrapper">
       <button onClick={toggleCreateNewPost} className="button">Create New </button>
