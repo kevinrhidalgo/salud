@@ -38,6 +38,11 @@ const personName={
 
 }
 
+const titleFront={
+  fontWeight:450,
+  fontFamily: "Yanone Kaffeesatz', sans-serif"
+}
+
 
 function PublicRouteTwo () {
   const [title, setTitle] = useState("");
@@ -151,7 +156,7 @@ function PublicRouteTwo () {
          <div className="profileOne">
     <div className="partOne"> 
      <img style={profileOne} src={image1}/>
-     <h3 >How going vegan changed my life.</h3>
+     <h3 style={titleFront} >How going vegan changed my life.</h3>
     </div>
     <div className="partOne"><h3 style={personName}>Peter Stevens</h3>
     <h6>February, 26 2021</h6>
@@ -166,26 +171,57 @@ After eating meat for 19 years of my life and with steak being my favourite food
 I have now been vegan for 2 and a half years and honestly believe it’s the best decision I’ve ever made. Before this change I was anaemic for a couple of years, not badly, but enough for me to feel tired and drained most of the time. Although going vegetarian didn’t change that, going vegan did. My eyes were opened to things I had never eaten before, making me care about my food and where it came from. I no longer felt guilty about what I was eating.</p>
 </div>
          </div>
+
         <div className="threeCards">
 <div className="personCard1">
+  <div className="cardSize">
   <img style={profileOne} src={image2}/>
   <h3 style={personName}>Cynthia Reyes</h3>
   <h6>June, 11 2019</h6>
-  <h3 >Working out 1 day at a time.</h3>
+  <h3 style={titleFront}>Working out 1 day at a time.</h3>
+  </div>
+
+  <div class="vlRoute"></div>
+
+  <div className="partThree">
+<p>After being sick for the majority of my life with headaches, mysterious body aches and pains, insomnia, and a long list of other ailments, I was diagnosed with fibromyalgia early in my 20s. At that time, I was as close to a walking zombie as you could get. I was only sleeping a few hours (of unrestful) sleep each night. I was in constant pain, and all I wanted to do was sleep.
+I started seeing a naturopath who helped me get on a decent sleep schedule so that I didn't feel so exhausted all the time. Next I started walking and later moved into running and workout videos.
+Start small and keep at it. It really is difficult at first because exercise can really rile up muscle and joint pain when you aren't used to doing it. Start by walking for 5-10 minutes at a time and slowly build up your time. Each day the pain will lessen.
+</p>
+</div>
 </div>
 
+
 <div className="personCard2">
+  <div className="cardSize">
 <img style={profileOne} src={image3}/>
 <h3 style={personName}>Stewart Reynolds</h3>
 <h6>September, 13 2020</h6>
-<h3>Change is for the best.</h3>
+<h3 style={titleFront}>Change is for the best.</h3>
+</div>
+<div class="vlRoute"></div>
+<div className="partThree">
+<p>I want to share my story of how small changes  have transformed my health.  Although this is personal to me, it's something I want to open up about because it has informed the way I work.
+As a nutritional therapist I  see the power that small changes have time and time again with my clients - each with an individual health story, lifestyle and dietary preferences.  I work with clients to support sustainable, long term changes that make a difference to how they feel and function. My aim is that these changes continue having an impact well beyond the period of time we work together.
+Because our bodies and our health are not static, we need to adjust how we eat and the lifestyles we adopt during different phases of our life. What suits us at one time (all nighters in my teens and twenties were a breeze), might not at another (now the thought of them makes me want to sleep for a week).
+Flexibility is key to maintaining a good balance of nutrients to suit your needs as they change. Tuning into how your body feels and taking notice of the signs it is giving you is an important tool in helping you to do this - one change at a time.</p>
+</div>
 </div>
 
 <div className="personCard3">
+<div className="cardSize">
 <img style={profileOne} src={image4}/>
 <h3 style={personName}>Cameron James</h3>
 <h6>March, 16 2019</h6>
-<h3>No regrets since that day.</h3>
+<h3 style={titleFront}>No regrets since that day.</h3>
+</div>
+<div class="vlRoute"></div>
+<div className="partThree">
+<p>I want to share my story of how small changes  have transformed my health.  Although this is personal to me, it's something I want to open up about because it has informed the way I work.
+As a nutritional therapist I  see the power that small changes have time and time again with my clients - each with an individual health story, lifestyle and dietary preferences.  I work with clients to support sustainable, long term changes that make a difference to how they feel and function. My aim is that these changes continue having an impact well beyond the period of time we work together.
+Because our bodies and our health are not static, we need to adjust how we eat and the lifestyles we adopt during different phases of our life. What suits us at one time (all nighters in my teens and twenties were a breeze), might not at another (now the thought of them makes me want to sleep for a week).
+Flexibility is key to maintaining a good balance of nutrients to suit your needs as they change. Tuning into how your body feels and taking notice of the signs it is giving you is an important tool in helping you to do this - one change at a time.</p>
+</div>
 </div>
         </div>
             

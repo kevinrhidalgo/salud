@@ -50,6 +50,7 @@
   transform: translate(20%, 20%);
   border-radius: 5%;
   box-shadow: 10px 10px 5px grey;
+  margin-bottom: 130px;
 }
 
 .partTwo{
@@ -71,8 +72,45 @@ font-weight:100px ;
 .threeCards{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 125px;
+    margin: 20px;
 }
-.personCard{
-    background-color:red ;
+.personCard1{
+    background: linear-gradient(180deg, #ffcccb 50%, #fffaf1 50%);
+    margin-right: 20px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5%;
+    
 }
+.personCard2{
+    background: linear-gradient(180deg, #ecd9ba 50%, #d6ecf3 50%);
+    margin-right: 20px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5%;
+}
+.personCard3{
+    background: linear-gradient(180deg, #fffaf1 50%, #dcedc8 50%);
+    margin-right: 20px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5%;
+}
+
+.partThree{
+    width:300px;
+    height:210px;
+    overflow:scroll;
+    margin:20px;
+    font-family: serif;
+    font-weight:100px ;
+    }
+
+    .vlRoute {
+        border-top: 1px solid gray;
+        width: 310px;
+        padding-bottom: 20px;
+        margin: 10px;
+      }
+      .cardSize{
+         padding: 30px;
+      }
