@@ -9,10 +9,11 @@
     display: flex;
     justify-content: center;
     margin:200px;
+font-size: 40px;
 }
 
 .bgColor{
-    background-color:coral;
+    background-color:#ADD8E6;
     padding: 20px 10px 10px;
     box-shadow: 10px 10px 5px grey;
 }
@@ -22,6 +23,8 @@
     display: flex;
     justify-content: center;
     margin:200px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
     
 }
 .button-wrapper{
