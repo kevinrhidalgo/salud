@@ -5,7 +5,7 @@ function CreateNewPost ({...props}) {
     <>
     <section className="create-post">
       <form onSubmit={props.savePost}>
-        <h1>Create New Post</h1>
+        <h1>Create Blog Post</h1>
         <input
           type="text"
           onChange={props.savePostTitleToState}
