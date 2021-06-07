@@ -16,6 +16,11 @@ function CreateNewPost ({...props}) {
         ></input>
         <br />
         <br />
+        <input type="file" name="filename" accept="image/gif, 
+        image/jpeg, image/png"/>
+        <br />
+        <br />
+
         <textarea
           onChange={props.savePostContentToState}
           placeholder="Content"
