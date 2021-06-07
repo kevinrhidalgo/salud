@@ -11,6 +11,10 @@ Salud is an application with the purpose of showing users that one can enjoy and
   * [Test](#test)
   * [Contact](#contact)
 ## Application
+<img width="1358" alt="Screen Shot 2021-06-07 at 12 12 12 PM" src="https://user-images.githubusercontent.com/78196245/121053748-ab1a3300-c789-11eb-93e9-066df94bdfda.png">
+<img width="1361" alt="Screen Shot 2021-06-07 at 12 09 49 PM" src="https://user-images.githubusercontent.com/78196245/121053758-ae152380-c789-11eb-81ae-656d064d38a9.png">
+<img width="1343" alt="Screen Shot 2021-06-07 at 12 10 15 PM" src="https://user-images.githubusercontent.com/78196245/121053780-b3726e00-c789-11eb-85e8-08402a20dc06.png">
+<img width="1081" alt="Screen Shot 2021-06-07 at 12 11 01 PM" src="https://user-images.githubusercontent.com/78196245/121053783-b4a39b00-c789-11eb-9185-3c2a4a907670.png">
 ## App Link
 ## WireFrame Link
 https://docs.google.com/presentation/d/1oK3J6VJMgnx9R0EQhHlNcnababVQjXc0bzqMiVEbV2c/edit?usp=sharing
