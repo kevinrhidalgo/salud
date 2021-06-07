@@ -129,7 +129,7 @@ function PublicRouteTwo () {
     });
     return (
       
-      <ModifyPost
+      <ModifyPost 
         title={post.title}
         content={post.content}
         updatePost={updatePost}
