@@ -6,6 +6,12 @@ import AuthButton from "../AuthButton";
 import { UserContext } from "../../utils/UserContext";
 import saludLogo from "./saludLogo.jpg"
 
+const userNameHead={
+  backgroundColor:"white",
+  boxShadow: "10px 10px 5px grey",
+  padding:5,
+  marginRight:5
+}
 
 
 //basic inline styling
@@ -55,13 +61,13 @@ function Nav() {
       
                
       <div className={`${open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
-        {user.username ? <span className="userText text-dark ml-3 pt-1" to="#">Hi {user.username}!</span> : ""}
+        {user.username ? <span style={userNameHead}  className="userText text-dark ml-3 pt-1" to="#">Hi {user.username}!</span> : ""}
         
         <ul className="navbar-nav md-flex">
           <li className="nav-item ">
             <Link style={buttonStyle1}  className=" btn" to="/home">Home</Link>
             <Link style={buttonStyle1} className=" btn " to="/voices">Voices</Link>
-            <Link style={buttonStyle1} className="btn" to="/mealplan">Meal Plan</Link>
+            <Link style={buttonStyle1} className="btn" to="/mealplan">Planner</Link>
             <Link style={buttonStyle1} className="btn " to="/recipes">Recipes</Link>
           </li>
         </ul>
