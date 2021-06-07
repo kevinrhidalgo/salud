@@ -32,7 +32,7 @@ function CreateNewPost ({...props}) {
         <br />
         <br />
         <section className="button-wrapper">
-        <button className="button">Save Post</button></section>
+        <button className="button">Post Blog</button></section>
       </form>
       </section>
     </>
