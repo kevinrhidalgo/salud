@@ -22,7 +22,16 @@ const paragraphOne={
 
 const profileOne={
   width:100,
-  height:100
+  height:100,
+  borderRadius: "50%",
+  padding:10
+}
+
+const personName={
+  fontSize:"20px",
+  paddingTop:30,
+  paddingRight:20
+
 }
 
 
@@ -136,11 +145,22 @@ function PublicRouteTwo () {
       {!allPosts.length ? (
         <section className="no-post">
          <div className="profileOne">
-           <img style={profileOne} src={image1}/><h3>John Stewart</h3> <h6>February 26th 2021</h6>
+    <div className="partOne"> 
+     <img style={profileOne} src={image1}/>
+     <h3 >How going vegan changed my life.</h3>
+    </div>
+    <div className="partOne"><h3 style={personName}>John Stewart</h3>
+    <h6>February, 26 2021</h6>
+    </div>
+
+    <div class="hlRoute"></div>
+  
+<div className="partTwo">
 <p>Vegan. When I first heard the word and understood the meaning I was baffled. Why would anyone willingly limit their dietary choices? How on earth can that be healthy? I understood why people may go vegetarian, but vegan? Not so much. After all, cows don’t die in order to produce milk.
 “What made you go vegan?” that’s probably the most common question I get. “I like animals.” people don’t usually like that answer.
 After eating meat for 19 years of my life and with steak being my favourite food, I never could have imagined myself making such a drastic lifestyle change. I used to believe that killing animals for food was OK, because we need food to survive. I firmly drew the line at wearing animals however, which I can now see is extremely hypocritical.
 I have now been vegan for 2 and a half years and honestly believe it’s the best decision I’ve ever made. Before this change I was anaemic for a couple of years, not badly, but enough for me to feel tired and drained most of the time. Although going vegetarian didn’t change that, going vegan did. My eyes were opened to things I had never eaten before, making me care about my food and where it came from. I no longer felt guilty about what I was eating.</p>
+</div>
          </div>
             
           <section className="button-wrapper">

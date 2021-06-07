@@ -31,3 +31,35 @@
   left: 50%;
   transform: translate(-50%, 20%);
 }
+.partOne{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profileOne{
+   background-color: beige ;
+   display: flex;
+   flex-direction: row;
+   width:800px;
+   padding:10px;
+   top: 50%;
+  left: 50%;
+  transform: translate(20%, 20%);
+  border-radius: 10%;
+}
+
+.partTwo{
+width:650px;
+height:200px;
+overflow:scroll;
+margin:20px;
+font-family: serif;
+font-weight:100px ;
+
+}
+
+.hlRoute{
+    border-left: 1px solid gray ;
+    height: 210px;
+    margin: 30px;   
+}
