@@ -25,7 +25,7 @@ https://docs.google.com/presentation/d/1oK3J6VJMgnx9R0EQhHlNcnababVQjXc0bzqMiVEb
 
   # Installation
   To run the installation, use the following code:
-  npm i, followed by npm start or node server.js
+  git clone code, than npm i, followed by npm start or node server.js
   # usage
   Git clone, Git pull, Git add, Git commit, Git push
   # License
